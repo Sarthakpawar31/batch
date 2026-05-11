@@ -11,6 +11,8 @@ Pillow>=10.0.0
 # ── GPIO / Hardware ────────────────────────────────────────────────────────────
 RPi.GPIO>=0.7.1
 picamera2>=0.3.12               # modern Pi-camera stack
+pyserial>=3.5                   # GPS serial NMEA parser
+smbus2>=0.4.0                   # I2C bus access for compass
 
 # ── Database ───────────────────────────────────────────────────────────────────
 # SQLite is in stdlib; aiosqlite for async access

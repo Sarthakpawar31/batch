@@ -33,7 +33,10 @@ robot/
 ├── hardware/
 │   ├── gpio_config.py       GPIO init/teardown + non-RPi stub
 │   ├── motors.py            L298N dual H-bridge driver
-│   └── ultrasonic.py        HC-SR04 distance sensor
+│   ├── ultrasonic.py        HC-SR04 distance sensor
+│   ├── dht11.py             Temperature + humidity sensor
+│   ├── gps.py               UART GPS NMEA receiver
+│   └── compass.py           I2C magnetometer / heading sensor
 │
 ├── memory/
 │   └── database.py          Async SQLite via aiosqlite
@@ -96,6 +99,34 @@ GND             ────►   GND
 ```
 GPIO 17  ────►   IR_LEFT  (signal)
 GPIO 27  ────►   IR_RIGHT (signal)
+3.3V     ────►   VCC
+GND      ────►   GND
+```
+
+### DHT11 Temperature / Humidity Sensor
+
+```
+GPIO 4   ────►   DATA
+3.3V     ────►   VCC
+GND      ────►   GND
+```
+
+Use a 10 kΩ pull-up resistor between DATA and 3.3V.
+
+### GPS Module (UART)
+
+```
+GPIO 15  ────►   TX  (GPS TX → Pi RX)
+GPIO 14  ────►   RX  (GPS RX → Pi TX)
+3.3V/5V  ────►   VCC  (check module requirements)
+GND      ────►   GND
+```
+
+### Compass / Magnetometer (I2C)
+
+```
+GPIO 2   ────►   SDA
+GPIO 3   ────►   SCL
 3.3V     ────►   VCC
 GND      ────►   GND
 ```

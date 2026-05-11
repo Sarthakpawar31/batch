@@ -41,9 +41,31 @@ class SensorPins:
     ECHO:        int = 24   # Ultrasonic echo
     IR_LEFT:     int = 17   # Optional IR sensor (left)
     IR_RIGHT:    int = 27   # Optional IR sensor (right)
+    DHT11:       int = 4    # Temperature / humidity sensor
+
+@dataclass(frozen=True)
+class EnvSensorPins:
+    GPS_RX:      int = 15   # UART RX (GPS TX → Pi RX)
+    GPS_TX:      int = 14   # UART TX (GPS RX → Pi TX)
+    I2C_SDA:     int = 2    # Compass / I2C SDA
+    I2C_SCL:     int = 3    # Compass / I2C SCL
+
+@dataclass(frozen=True)
+class GPSConfig:
+    DEVICE: str = os.getenv("GPS_DEVICE", "/dev/serial0")
+    BAUDRATE: int = int(os.getenv("GPS_BAUDRATE", "9600"))
+    TIMEOUT: float = 1.0
+
+@dataclass(frozen=True)
+class CompassConfig:
+    I2C_BUS: int = int(os.getenv("I2C_BUS", "1"))
+    I2C_ADDRESS: int = int(os.getenv("COMPASS_ADDRESS", "0x1E"), 0)
 
 MOTOR_PINS  = MotorPins()
 SENSOR_PINS = SensorPins()
+ENV_PINS    = EnvSensorPins()
+GPS_CFG     = GPSConfig()
+COMPASS_CFG = CompassConfig()
 
 
 # ── Motor / Movement ──────────────────────────────────────────────────────────
@@ -113,6 +135,7 @@ API_CFG = APIConfig()
 @dataclass(frozen=True)
 class LoopConfig:
     SENSOR_HZ:       float = 10.0   # ultrasonic poll rate
+    ENV_HZ:          float = 0.2    # slower environment sensor poll rate
     VISION_HZ:       float = 5.0    # leaf-detection rate
     DECISION_HZ:     float = 2.0    # planner tick rate
     BATTERY_CHECK_S: int   = 60     # seconds between battery checks

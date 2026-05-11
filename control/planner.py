@@ -38,13 +38,16 @@ import cv2
 
 from config import LOOP_CFG, MOTOR_CFG, REPORT_DIR, AI_CFG
 from control.state_machine import State, StateMachine
-from hardware.motors     import MotorController
+from hardware.compass import Compass
+from hardware.dht11 import DHT11Reader
+from hardware.gps import GPSReader
+from hardware.motors import MotorController
 from hardware.ultrasonic import async_read_distance_cm, read_ir_sensors
-from vision.camera       import Camera
+from vision.camera import Camera
 from vision.leaf_detection import best_leaf
-from ai.classify         import DiseaseClassifier, PredictionResult
+from ai.classify import DiseaseClassifier, PredictionResult
 from ai.openrouter_client import OpenRouterClient
-from memory.database      import RoverDatabase
+from memory.database import RoverDatabase
 
 logger = logging.getLogger(__name__)
 
@@ -57,6 +60,12 @@ class _SensorData:
     ir_right:    bool            = False
     leaf_found:  bool            = False
     last_frame:  Any             = None   # numpy array | None
+    temperature_c: Optional[float] = None
+    humidity_pct: Optional[float] = None
+    gps_latitude: Optional[float] = None
+    gps_longitude: Optional[float] = None
+    gps_altitude_m: Optional[float] = None
+    heading_deg: Optional[float] = None
 
 
 _sensors = _SensorData()
@@ -73,13 +82,16 @@ class Planner:
     """
 
     def __init__(self) -> None:
-        self.sm         = StateMachine()
-        self.motors     = MotorController()
-        self.camera     = Camera()
-        self.classifier = DiseaseClassifier.get()
-        self.api        = OpenRouterClient()
-        self.db         = RoverDatabase()
-        self._running   = False
+        self.sm           = StateMachine()
+        self.motors       = MotorController()
+        self.camera       = Camera()
+        self.classifier   = DiseaseClassifier.get()
+        self.api          = OpenRouterClient()
+        self.db           = RoverDatabase()
+        self.dht_sensor   = DHT11Reader()
+        self.gps_reader   = GPSReader()
+        self.compass      = Compass()
+        self._running     = False
 
         # Register state-change logging
         self.sm.on_transition(self._on_state_change)
@@ -96,10 +108,11 @@ class Planner:
         self.sm.transition(State.EXPLORING)
 
         tasks = [
-            asyncio.create_task(self._sensor_loop(),   name="sensor"),
-            asyncio.create_task(self._vision_loop(),   name="vision"),
-            asyncio.create_task(self._decision_loop(), name="decision"),
-            asyncio.create_task(self._battery_loop(),  name="battery"),
+            asyncio.create_task(self._sensor_loop(),      name="sensor"),
+            asyncio.create_task(self._environment_loop(), name="environment"),
+            asyncio.create_task(self._vision_loop(),      name="vision"),
+            asyncio.create_task(self._decision_loop(),    name="decision"),
+            asyncio.create_task(self._battery_loop(),     name="battery"),
         ]
 
         if await self._wait_for_clear_path(timeout=1.0):
@@ -155,6 +168,32 @@ class Planner:
                         None, best_leaf, frame
                     )
                     _sensors.leaf_found = leaf is not None
+            await asyncio.sleep(interval)
+
+    async def _environment_loop(self) -> None:
+        interval = 1.0 / LOOP_CFG.ENV_HZ
+        loop = asyncio.get_event_loop()
+
+        while self._running:
+            temperature, humidity = await loop.run_in_executor(
+                None, self.dht_sensor.read
+            )
+            heading = await loop.run_in_executor(
+                None, self.compass.read_heading
+            )
+            location = await loop.run_in_executor(
+                None, self.gps_reader.read_location
+            )
+
+            _sensors.temperature_c = temperature
+            _sensors.humidity_pct = humidity
+            _sensors.heading_deg = heading
+
+            if location is not None:
+                _sensors.gps_latitude = location.get("latitude")
+                _sensors.gps_longitude = location.get("longitude")
+                _sensors.gps_altitude_m = location.get("altitude_m")
+
             await asyncio.sleep(interval)
 
     # ── Decision loop (slow) ──────────────────────────────────────────────────
@@ -384,6 +423,7 @@ class Planner:
     async def _shutdown(self, session_id: int) -> None:
         self.motors.stop()
         self.motors.cleanup()
+        self.gps_reader.close()
         self.camera.release()
 
         # End session with a summary
