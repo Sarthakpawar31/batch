@@ -1,0 +1,2175 @@
+2026-05-10 19:48:55,009 [INFO] main – ═══════════════════════════════════════
+2026-05-10 19:48:55,010 [INFO] main –    AgriRover starting up               
+2026-05-10 19:48:55,010 [INFO] main – ═══════════════════════════════════════
+2026-05-10 19:48:55,011 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 19:48:55,013 [WARNING] vision.camera – PiCamera2 failed (No module named 'libcamera'), falling back to OpenCV.
+2026-05-10 19:48:55,021 [INFO] vision.camera – OpenCV camera 0 opened at 320x240
+2026-05-10 19:48:55,022 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 19:48:55,368 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 19:48:55,451 [INFO] memory.database – Session 1 started.
+2026-05-10 19:48:55,452 [INFO] control.planner – Rover starting – session 1
+2026-05-10 19:48:55,453 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 19:49:17,752 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 19:49:33,365 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 19:49:55,473 [INFO] vision.camera – OpenCV camera released.
+2026-05-10 19:49:55,497 [INFO] memory.database – Session 1 ended (0 detections).
+2026-05-10 19:49:55,499 [INFO] memory.database – Database closed.
+2026-05-10 19:49:55,500 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-10 19:49:55,500 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-10 19:49:55,500 [INFO] main – Rover shutdown complete.
+2026-05-10 22:14:15,128 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:14:15,130 [INFO] main –    AgriRover starting up               
+2026-05-10 22:14:15,130 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:14:15,131 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 22:14:15,883 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 22:14:15,884 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 22:14:15,890 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 22:14:15,894 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 22:14:15,928 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 22:14:15,929 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 22:14:15,929 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 22:14:15,934 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 22:14:15,953 [INFO] memory.database – Session 2 started.
+2026-05-10 22:14:15,954 [INFO] control.planner – Rover starting – session 2
+2026-05-10 22:14:15,954 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 22:14:35,269 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:15:04,751 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:15:04,982 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:15:05,132 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:15:05,300 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:15:18,903 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:15:19,111 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:16:20,696 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:16:20,697 [INFO] main –    AgriRover starting up               
+2026-05-10 22:16:20,697 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:16:20,698 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 22:16:20,958 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 22:16:20,959 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 22:16:20,964 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 22:16:20,967 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 22:16:20,988 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 22:16:20,989 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 22:16:20,989 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 22:16:20,992 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 22:16:21,014 [INFO] memory.database – Session 3 started.
+2026-05-10 22:16:21,015 [INFO] control.planner – Rover starting – session 3
+2026-05-10 22:16:21,015 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 22:16:22,439 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:16:45,127 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:16,367 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:16,586 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:16,711 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:16,902 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:17,059 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:17,207 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:17,356 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:17,497 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:17,677 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:17,819 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:17,973 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:18,159 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:18,260 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:17:21,052 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-10 22:17:21,053 [INFO] vision.camera – PiCamera2 released.
+2026-05-10 22:17:21,070 [INFO] memory.database – Session 3 ended (0 detections).
+2026-05-10 22:17:21,071 [INFO] memory.database – Database closed.
+2026-05-10 22:17:21,072 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-10 22:17:21,073 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-10 22:17:21,074 [INFO] main – Rover shutdown complete.
+2026-05-10 22:17:21,461 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-10 22:18:24,138 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:18:24,138 [INFO] main –    AgriRover starting up               
+2026-05-10 22:18:24,138 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:18:24,138 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 22:18:24,465 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 22:18:24,467 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 22:18:24,474 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 22:18:24,478 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 22:18:24,509 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 22:18:24,510 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 22:18:24,511 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 22:18:24,517 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 22:18:24,529 [INFO] memory.database – Session 4 started.
+2026-05-10 22:18:24,530 [INFO] control.planner – Rover starting – session 4
+2026-05-10 22:18:24,531 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 22:19:10,459 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:29:31,517 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:29:31,518 [INFO] main –    AgriRover starting up               
+2026-05-10 22:29:31,519 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:29:31,519 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 22:29:32,225 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 22:29:32,226 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 22:29:32,231 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 22:29:32,234 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 22:29:32,260 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 22:29:32,260 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 22:29:32,261 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 22:29:32,270 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 22:29:32,283 [INFO] memory.database – Session 5 started.
+2026-05-10 22:29:32,284 [INFO] control.planner – Rover starting – session 5
+2026-05-10 22:29:32,284 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 22:31:33,647 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:50:47,411 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:50:47,412 [INFO] main –    AgriRover starting up               
+2026-05-10 22:50:47,413 [INFO] main – ═══════════════════════════════════════
+2026-05-10 22:50:47,413 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 22:50:47,665 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 22:50:47,666 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 22:50:47,671 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 22:50:47,674 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 22:50:47,696 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 22:50:49,697 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 22:50:49,697 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 22:50:49,704 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 22:50:49,724 [INFO] memory.database – Session 6 started.
+2026-05-10 22:50:49,725 [INFO] control.planner – Rover starting – session 6
+2026-05-10 22:50:49,725 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 22:50:56,261 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:50:56,262 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:50:57,067 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:50:57,583 [INFO] control.planner – No valid leaf found in still; resuming.
+2026-05-10 22:50:57,583 [INFO] control.state_machine – State: INSPECTING → EXPLORING
+2026-05-10 22:50:59,085 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:50:59,086 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:50:59,886 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:00,397 [INFO] control.planner – Classification: Bacterial Spot  conf=0.80  severity=moderate
+2026-05-10 22:51:00,420 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:01,371 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:01,373 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:01,399 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:01,900 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:01,900 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:02,701 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:03,205 [INFO] control.planner – No valid leaf found in still; resuming.
+2026-05-10 22:51:03,206 [INFO] control.state_machine – State: INSPECTING → EXPLORING
+2026-05-10 22:51:07,215 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:07,216 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:08,027 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:08,535 [INFO] control.planner – Classification: Spider Mites  conf=0.89  severity=high
+2026-05-10 22:51:08,540 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:09,172 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:09,175 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:09,190 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:09,696 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:09,697 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:10,507 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:11,012 [INFO] control.planner – Classification: Healthy  conf=0.88  severity=none
+2026-05-10 22:51:11,013 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:11,033 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:11,534 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:11,534 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:12,337 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:12,841 [INFO] control.planner – No valid leaf found in still; resuming.
+2026-05-10 22:51:12,842 [INFO] control.state_machine – State: INSPECTING → EXPLORING
+2026-05-10 22:51:22,859 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:22,860 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:23,660 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:24,170 [INFO] control.planner – Classification: Spider Mites  conf=0.94  severity=high
+2026-05-10 22:51:24,174 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:24,813 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:24,815 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:24,826 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:25,327 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:25,327 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:26,128 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:26,634 [INFO] control.planner – Classification: Late Blight  conf=0.66  severity=low
+2026-05-10 22:51:26,636 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:26,936 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:26,940 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:26,958 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:27,458 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:27,459 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:28,259 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:28,765 [INFO] control.planner – Classification: Yellow Leaf Curl Virus  conf=0.92  severity=high
+2026-05-10 22:51:28,767 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:29,360 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:29,365 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:29,420 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:29,922 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:29,924 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:30,725 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:31,236 [INFO] control.planner – Classification: Leaf Mold  conf=0.61  severity=low
+2026-05-10 22:51:31,241 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:31,529 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:31,533 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:31,615 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:32,118 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:32,147 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:32,959 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:33,467 [INFO] control.planner – Classification: Healthy  conf=0.63  severity=none
+2026-05-10 22:51:33,468 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:33,484 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:33,986 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:33,986 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:34,793 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:35,309 [INFO] control.planner – Classification: Spider Mites  conf=0.85  severity=high
+2026-05-10 22:51:35,313 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:35,618 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:35,620 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:35,635 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:36,136 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:36,136 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:36,939 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:37,444 [INFO] control.planner – Classification: Spider Mites  conf=0.58  severity=low
+2026-05-10 22:51:37,447 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:37,710 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:37,712 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:37,728 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:38,228 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:38,229 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:39,029 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:39,533 [INFO] control.planner – No valid leaf found in still; resuming.
+2026-05-10 22:51:39,533 [INFO] control.state_machine – State: INSPECTING → EXPLORING
+2026-05-10 22:51:43,546 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:43,552 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:44,368 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:44,884 [INFO] control.planner – Classification: Target Spot  conf=0.61  severity=low
+2026-05-10 22:51:44,888 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 22:51:45,596 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:51:45,601 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:51:45,622 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 22:51:50,637 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 22:51:50,648 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 22:51:51,460 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 22:51:51,975 [INFO] control.planner – No valid leaf found in still; resuming.
+2026-05-10 22:51:51,976 [INFO] control.state_machine – State: INSPECTING → EXPLORING
+2026-05-10 22:51:54,575 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:52:06,799 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:52:07,027 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:52:07,190 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:52:07,289 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 22:52:49,811 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-10 22:52:49,812 [INFO] vision.camera – PiCamera2 released.
+2026-05-10 22:52:50,443 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 22:52:50,447 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 22:52:50,463 [INFO] memory.database – Session 6 ended (11 detections).
+2026-05-10 22:52:50,464 [INFO] memory.database – Database closed.
+2026-05-10 22:52:50,465 [INFO] control.planner – Shutdown complete.  Session summary:
+Report generation unavailable (offline).
+2026-05-10 22:52:50,465 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-10 22:52:50,466 [INFO] main – Rover shutdown complete.
+2026-05-10 22:52:50,818 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-10 23:05:32,023 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:05:32,024 [INFO] main –    AgriRover starting up               
+2026-05-10 23:05:32,024 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:05:32,024 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 23:05:32,775 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 23:05:32,776 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 23:05:32,781 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 23:05:32,784 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 23:05:32,816 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 23:05:34,817 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 23:05:34,817 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 23:05:34,822 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 23:05:34,836 [INFO] memory.database – Session 7 started.
+2026-05-10 23:05:34,836 [INFO] control.planner – Rover starting – session 7
+2026-05-10 23:05:34,837 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 23:05:38,856 [INFO] control.planner – Obstacle at 2.0 cm
+2026-05-10 23:05:38,856 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:39,357 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:40,363 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:40,366 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:41,869 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-10 23:05:41,870 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:42,372 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:43,374 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:43,375 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:43,877 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-10 23:05:43,877 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:44,379 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:45,380 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:45,381 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:45,886 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-10 23:05:45,887 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:46,388 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:47,399 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:47,400 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:47,900 [INFO] control.planner – Obstacle at 18.9 cm
+2026-05-10 23:05:47,901 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:48,402 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:49,404 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:49,404 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:49,906 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-10 23:05:49,906 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:50,407 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:51,408 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:51,410 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:51,911 [INFO] control.planner – Obstacle at 20.2 cm
+2026-05-10 23:05:51,911 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:52,412 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:53,413 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:53,414 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:53,916 [INFO] control.planner – Obstacle at 4.9 cm
+2026-05-10 23:05:53,916 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:54,418 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:55,424 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:55,436 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:55,937 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-10 23:05:55,938 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:56,440 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:57,441 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:57,443 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:05:57,943 [INFO] control.planner – Obstacle at 16.7 cm
+2026-05-10 23:05:57,944 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:05:58,445 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:05:59,445 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:05:59,447 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:00,947 [INFO] control.planner – Obstacle at 23.9 cm
+2026-05-10 23:06:00,948 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:01,453 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:02,454 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:02,455 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:02,956 [INFO] control.planner – Obstacle at 17.9 cm
+2026-05-10 23:06:02,957 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:03,458 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:04,459 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:04,460 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:04,963 [INFO] control.planner – Obstacle at 10.6 cm
+2026-05-10 23:06:04,963 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:05,465 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:06,466 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:06,467 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:07,468 [INFO] control.planner – Obstacle at 24.8 cm
+2026-05-10 23:06:07,468 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:07,970 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:08,971 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:08,972 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:12,473 [INFO] control.planner – Obstacle at 21.1 cm
+2026-05-10 23:06:12,474 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:12,975 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:13,976 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:13,977 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:14,983 [INFO] control.planner – Obstacle at 13.7 cm
+2026-05-10 23:06:14,984 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:14,985 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:06:34,877 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-10 23:06:34,878 [INFO] vision.camera – PiCamera2 released.
+2026-05-10 23:06:34,905 [INFO] memory.database – Session 7 ended (0 detections).
+2026-05-10 23:06:34,907 [INFO] memory.database – Database closed.
+2026-05-10 23:06:34,908 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-10 23:06:34,908 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-10 23:06:34,909 [INFO] main – Rover shutdown complete.
+2026-05-10 23:06:35,286 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-10 23:06:45,541 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:06:45,541 [INFO] main –    AgriRover starting up               
+2026-05-10 23:06:45,542 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:06:45,542 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 23:06:45,809 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 23:06:45,810 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 23:06:45,816 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 23:06:45,819 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 23:06:45,841 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 23:06:47,841 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 23:06:47,842 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 23:06:47,844 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 23:06:47,854 [INFO] memory.database – Session 8 started.
+2026-05-10 23:06:47,855 [INFO] control.planner – Rover starting – session 8
+2026-05-10 23:06:47,855 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 23:06:48,363 [INFO] control.planner – Obstacle at 10.2 cm
+2026-05-10 23:06:48,363 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:48,863 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:49,864 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:49,865 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:50,365 [INFO] control.planner – Obstacle at 4.6 cm
+2026-05-10 23:06:50,366 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:50,867 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:51,868 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:51,869 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:52,370 [INFO] control.planner – Obstacle at 21.1 cm
+2026-05-10 23:06:52,371 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:52,876 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:53,877 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:53,877 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:55,879 [INFO] control.planner – Obstacle at 16.4 cm
+2026-05-10 23:06:55,880 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:56,381 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:57,382 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:57,383 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:06:57,884 [INFO] control.planner – Obstacle at 9.9 cm
+2026-05-10 23:06:57,885 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:06:58,387 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:06:59,388 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:06:59,388 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:00,390 [INFO] control.planner – Obstacle at 18.3 cm
+2026-05-10 23:07:00,390 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:00,891 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:01,892 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:01,893 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:02,894 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-10 23:07:02,895 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:03,396 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:04,397 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:04,397 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:05,401 [INFO] control.planner – Obstacle at 3.3 cm
+2026-05-10 23:07:05,401 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:05,903 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:06,904 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:06,905 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:07,407 [INFO] control.planner – Obstacle at 10.6 cm
+2026-05-10 23:07:07,408 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:07,909 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:08,911 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:08,912 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:09,913 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-10 23:07:09,914 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:10,415 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:11,416 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:11,417 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:11,919 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-10 23:07:11,920 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:12,421 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:13,421 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:13,422 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:15,928 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-10 23:07:15,928 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:16,430 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:17,431 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:17,432 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:17,933 [INFO] control.planner – Obstacle at 1.7 cm
+2026-05-10 23:07:17,934 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:18,436 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:19,436 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:19,437 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:20,937 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-10 23:07:20,938 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:07:21,439 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:07:22,439 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:07:22,440 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:07:25,318 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:07:41,759 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:07:43,055 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:07:43,329 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:07:43,480 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:07:47,882 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-10 23:07:47,883 [INFO] vision.camera – PiCamera2 released.
+2026-05-10 23:07:47,950 [INFO] memory.database – Session 8 ended (0 detections).
+2026-05-10 23:07:47,951 [INFO] memory.database – Database closed.
+2026-05-10 23:07:47,951 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-10 23:07:47,951 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-10 23:07:47,952 [INFO] main – Rover shutdown complete.
+2026-05-10 23:07:48,286 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-10 23:08:27,375 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:08:27,376 [INFO] main –    AgriRover starting up               
+2026-05-10 23:08:27,377 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:08:27,378 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 23:08:27,651 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 23:08:27,652 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 23:08:27,659 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 23:08:27,661 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 23:08:27,683 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 23:08:29,684 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 23:08:29,684 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 23:08:29,687 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 23:08:29,696 [INFO] memory.database – Session 9 started.
+2026-05-10 23:08:29,697 [INFO] control.planner – Rover starting – session 9
+2026-05-10 23:08:29,698 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 23:08:30,203 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-10 23:08:30,204 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:08:30,705 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:08:31,705 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:08:31,706 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:08:40,487 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:09:29,746 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-10 23:09:29,747 [INFO] vision.camera – PiCamera2 released.
+2026-05-10 23:09:29,770 [INFO] memory.database – Session 9 ended (0 detections).
+2026-05-10 23:09:29,771 [INFO] memory.database – Database closed.
+2026-05-10 23:09:29,772 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-10 23:09:29,772 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-10 23:09:29,773 [INFO] main – Rover shutdown complete.
+2026-05-10 23:09:30,152 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-10 23:12:11,021 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:12:11,021 [INFO] main –    AgriRover starting up               
+2026-05-10 23:12:11,022 [INFO] main – ═══════════════════════════════════════
+2026-05-10 23:12:11,022 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-10 23:12:11,281 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-10 23:12:11,282 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-10 23:12:11,287 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-10 23:12:11,290 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-10 23:12:11,319 [INFO] picamera2.picamera2 – Camera started
+2026-05-10 23:12:13,320 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-10 23:12:13,320 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-10 23:12:13,323 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-10 23:12:13,345 [INFO] memory.database – Session 10 started.
+2026-05-10 23:12:13,346 [INFO] control.planner – Rover starting – session 10
+2026-05-10 23:12:13,347 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-10 23:12:17,856 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-10 23:12:17,857 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:18,358 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:19,359 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:19,360 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:28,365 [INFO] control.planner – Obstacle at 20.5 cm
+2026-05-10 23:12:28,366 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:28,867 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:29,868 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:29,870 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:37,877 [INFO] control.planner – Obstacle at 3.0 cm
+2026-05-10 23:12:37,878 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:38,379 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:39,381 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:39,383 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:39,884 [INFO] control.planner – Obstacle at 2.3 cm
+2026-05-10 23:12:39,886 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:40,388 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:41,389 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:41,391 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:41,891 [INFO] control.planner – Obstacle at 3.3 cm
+2026-05-10 23:12:41,892 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:42,393 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:43,394 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:43,395 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:47,398 [INFO] control.planner – Obstacle at 20.8 cm
+2026-05-10 23:12:47,398 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:47,899 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:48,901 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:48,902 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:49,904 [INFO] control.planner – Obstacle at 23.0 cm
+2026-05-10 23:12:49,905 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:50,406 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:51,407 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:51,408 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:51,909 [INFO] control.planner – Obstacle at 22.7 cm
+2026-05-10 23:12:51,909 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:52,411 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:12:53,412 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:12:53,413 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:12:59,415 [INFO] control.planner – Obstacle at 15.4 cm
+2026-05-10 23:12:59,415 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-10 23:12:59,917 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-10 23:13:00,918 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-10 23:13:00,919 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-10 23:13:04,926 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 23:13:04,926 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 23:13:05,726 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 23:13:06,239 [INFO] control.planner – Classification: Target Spot  conf=0.87  severity=high
+2026-05-10 23:13:06,262 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 23:13:07,218 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 23:13:07,221 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 23:13:07,239 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 23:13:07,740 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 23:13:07,741 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 23:13:08,541 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 23:13:09,045 [INFO] control.planner – Classification: Yellow Leaf Curl Virus  conf=0.96  severity=high
+2026-05-10 23:13:09,048 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 23:13:09,658 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 23:13:09,660 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 23:13:09,673 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 23:13:10,173 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 23:13:10,173 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 23:13:10,973 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 23:13:11,484 [INFO] control.planner – Classification: Spider Mites  conf=0.71  severity=moderate
+2026-05-10 23:13:11,490 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 23:13:11,773 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 23:13:11,776 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 23:13:11,793 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 23:13:12,294 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 23:13:12,294 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 23:13:13,094 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 23:13:13,599 [INFO] control.planner – Classification: Yellow Leaf Curl Virus  conf=0.56  severity=low
+2026-05-10 23:13:13,601 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 23:13:13,894 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 23:13:13,896 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 23:13:13,908 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 23:13:14,408 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 23:13:14,408 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 23:13:15,212 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 23:13:15,717 [INFO] control.planner – Classification: Yellow Leaf Curl Virus  conf=0.97  severity=high
+2026-05-10 23:13:15,719 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-10 23:13:16,305 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 23:13:16,307 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 23:13:16,319 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-10 23:13:17,319 [INFO] control.planner – Plant detected – approaching.
+2026-05-10 23:13:17,320 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-10 23:13:18,121 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-10 23:13:18,629 [INFO] control.planner – No valid leaf found in still; resuming.
+2026-05-10 23:13:18,630 [INFO] control.state_machine – State: INSPECTING → EXPLORING
+2026-05-10 23:13:26,277 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:14:08,904 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:14:09,102 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:14:09,289 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-10 23:14:13,374 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-10 23:14:13,375 [INFO] vision.camera – PiCamera2 released.
+2026-05-10 23:14:13,710 [INFO] httpx – HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-05-10 23:14:13,712 [WARNING] ai.openrouter_client – OpenRouter request failed: Client error '404 Not Found' for url 'https://openrouter.ai/api/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-10 23:14:13,720 [INFO] memory.database – Session 10 ended (5 detections).
+2026-05-10 23:14:13,721 [INFO] memory.database – Database closed.
+2026-05-10 23:14:13,722 [INFO] control.planner – Shutdown complete.  Session summary:
+Report generation unavailable (offline).
+2026-05-10 23:14:13,722 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-10 23:14:13,722 [INFO] main – Rover shutdown complete.
+2026-05-10 23:14:13,978 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 16:18:33,033 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:18:33,035 [INFO] main –    AgriRover starting up               
+2026-05-11 16:18:33,035 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:18:33,036 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 16:18:33,763 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 16:18:33,764 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 16:18:33,769 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 16:18:33,772 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 16:18:33,800 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 16:18:35,800 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 16:18:35,801 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 16:18:35,807 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-11 16:18:35,840 [INFO] memory.database – Session 11 started.
+2026-05-11 16:18:35,841 [INFO] control.planner – Rover starting – session 11
+2026-05-11 16:18:35,842 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 16:19:05,784 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 16:19:35,880 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 16:19:35,881 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 16:19:35,907 [INFO] memory.database – Session 11 ended (0 detections).
+2026-05-11 16:19:35,908 [INFO] memory.database – Database closed.
+2026-05-11 16:19:35,909 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 16:19:35,909 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 16:19:35,910 [INFO] main – Rover shutdown complete.
+2026-05-11 16:19:36,289 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 16:20:03,591 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:20:03,591 [INFO] main –    AgriRover starting up               
+2026-05-11 16:20:03,591 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:20:03,591 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 16:20:03,908 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 16:20:03,909 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 16:20:03,914 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 16:20:03,916 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 16:20:03,943 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 16:20:05,943 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 16:20:05,944 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 16:20:05,948 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-11 16:20:05,973 [INFO] memory.database – Session 12 started.
+2026-05-11 16:20:05,973 [INFO] control.planner – Rover starting – session 12
+2026-05-11 16:20:05,974 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 16:20:14,499 [INFO] control.planner – Obstacle at 16.6 cm
+2026-05-11 16:20:14,500 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:20:15,002 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:20:16,003 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:20:16,004 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:20:16,506 [INFO] control.planner – Obstacle at 16.7 cm
+2026-05-11 16:20:16,507 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:20:17,008 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:20:18,009 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:20:18,010 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:20:18,512 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:20:18,512 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:20:19,014 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:20:20,015 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:20:20,016 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:20:56,060 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:20:56,060 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:20:56,560 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:20:57,561 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:20:57,561 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:20:58,062 [INFO] control.planner – Obstacle at 7.2 cm
+2026-05-11 16:20:58,063 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:20:58,563 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:20:59,564 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:20:59,566 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:00,066 [INFO] control.planner – Obstacle at 6.5 cm
+2026-05-11 16:21:00,067 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:00,567 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:01,568 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:01,568 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:02,069 [INFO] control.planner – Obstacle at 6.9 cm
+2026-05-11 16:21:02,070 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:02,570 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:03,571 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:03,572 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:04,072 [INFO] control.planner – Obstacle at 6.5 cm
+2026-05-11 16:21:04,073 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:04,573 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:05,574 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:05,575 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:06,076 [INFO] control.planner – Obstacle at 9.2 cm
+2026-05-11 16:21:06,077 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:06,578 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:07,580 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:07,582 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:08,083 [INFO] control.planner – Obstacle at 8.9 cm
+2026-05-11 16:21:08,084 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:08,586 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:09,586 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:09,587 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:10,588 [INFO] control.planner – Obstacle at 3.6 cm
+2026-05-11 16:21:10,589 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:11,090 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:12,091 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:12,092 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:13,092 [INFO] control.planner – Obstacle at 6.9 cm
+2026-05-11 16:21:13,093 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:13,599 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:14,600 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:14,601 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:20,607 [INFO] control.planner – Obstacle at 11.9 cm
+2026-05-11 16:21:20,608 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:21,108 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:22,110 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:22,111 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:22,611 [INFO] control.planner – Obstacle at 21.8 cm
+2026-05-11 16:21:22,612 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:23,114 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:24,115 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:24,116 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:24,617 [INFO] control.planner – Obstacle at 16.7 cm
+2026-05-11 16:21:24,618 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:25,119 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:26,120 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:26,122 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:32,126 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-11 16:21:32,126 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:32,627 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:33,628 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:33,630 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:34,130 [INFO] control.planner – Obstacle at 13.0 cm
+2026-05-11 16:21:34,131 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:34,633 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:35,634 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:35,635 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:36,137 [INFO] control.planner – Obstacle at 2.6 cm
+2026-05-11 16:21:36,137 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:36,639 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:37,640 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:37,641 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:44,152 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:21:44,153 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:44,654 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:45,654 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:45,655 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:46,156 [INFO] control.planner – Obstacle at 8.2 cm
+2026-05-11 16:21:46,157 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:46,657 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:47,658 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:47,659 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:48,160 [INFO] control.planner – Obstacle at 6.2 cm
+2026-05-11 16:21:48,161 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:48,661 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:49,662 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:49,663 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:54,177 [INFO] control.planner – Obstacle at 5.9 cm
+2026-05-11 16:21:54,177 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:54,679 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:55,680 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:55,681 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:21:56,682 [INFO] control.planner – Obstacle at 23.9 cm
+2026-05-11 16:21:56,684 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:21:57,186 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:21:58,188 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:21:58,188 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:05,691 [INFO] control.planner – Obstacle at 24.4 cm
+2026-05-11 16:22:05,692 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:06,193 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:07,193 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:07,194 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:08,696 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 16:22:08,696 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:09,198 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:10,199 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:10,200 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:10,701 [INFO] control.planner – Obstacle at 24.7 cm
+2026-05-11 16:22:10,702 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:11,202 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:12,204 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:12,205 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:12,705 [INFO] control.planner – Obstacle at 23.9 cm
+2026-05-11 16:22:12,705 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:13,207 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:14,208 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:14,210 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:14,711 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 16:22:14,711 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:15,214 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:16,215 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:16,216 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:17,218 [INFO] control.planner – Obstacle at 16.6 cm
+2026-05-11 16:22:17,219 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:17,720 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:18,721 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:18,722 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:19,222 [INFO] control.planner – Obstacle at 8.2 cm
+2026-05-11 16:22:19,223 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:19,724 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:20,725 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:20,727 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:21,227 [INFO] control.planner – Obstacle at 7.7 cm
+2026-05-11 16:22:21,228 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:21,730 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:22,731 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:22,732 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:23,233 [INFO] control.planner – Obstacle at 4.0 cm
+2026-05-11 16:22:23,234 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:23,736 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:24,737 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:24,738 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:25,239 [INFO] control.planner – Obstacle at 10.9 cm
+2026-05-11 16:22:25,240 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:25,742 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:26,743 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:26,744 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:27,245 [INFO] control.planner – Obstacle at 6.9 cm
+2026-05-11 16:22:27,246 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:27,747 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:28,748 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:28,749 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:35,755 [INFO] control.planner – Obstacle at 13.6 cm
+2026-05-11 16:22:35,756 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:36,257 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:37,258 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:37,259 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:37,760 [INFO] control.planner – Obstacle at 7.9 cm
+2026-05-11 16:22:37,761 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:38,262 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:39,263 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:39,265 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:39,766 [INFO] control.planner – Obstacle at 9.9 cm
+2026-05-11 16:22:39,767 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:40,269 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:41,271 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:41,272 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:41,773 [INFO] control.planner – Obstacle at 5.5 cm
+2026-05-11 16:22:41,775 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:42,276 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:43,276 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:43,277 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:43,780 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 16:22:43,780 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:44,282 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:45,288 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:45,289 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:50,292 [INFO] control.planner – Obstacle at 3.6 cm
+2026-05-11 16:22:50,293 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:50,795 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:22:51,795 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:22:51,797 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:22:59,301 [INFO] control.planner – Obstacle at 23.6 cm
+2026-05-11 16:22:59,302 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:22:59,803 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:00,806 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:00,807 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:04,811 [INFO] control.planner – Obstacle at 24.7 cm
+2026-05-11 16:23:04,811 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:05,312 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:06,313 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:06,314 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:06,816 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:23:06,816 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:07,318 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:08,319 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:08,320 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:08,820 [INFO] control.planner – Obstacle at 16.7 cm
+2026-05-11 16:23:08,821 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:09,323 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:10,324 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:10,325 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:10,826 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:23:10,827 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:11,328 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:12,329 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:12,330 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:12,831 [INFO] control.planner – Obstacle at 22.1 cm
+2026-05-11 16:23:12,831 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:13,334 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:14,334 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:14,335 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:14,836 [INFO] control.planner – Obstacle at 17.9 cm
+2026-05-11 16:23:14,837 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:15,338 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:16,339 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:16,340 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:16,841 [INFO] control.planner – Obstacle at 22.7 cm
+2026-05-11 16:23:16,842 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:17,342 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:18,343 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:18,344 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:18,844 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 16:23:18,845 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:19,346 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:20,347 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:20,347 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:20,849 [INFO] control.planner – Obstacle at 21.4 cm
+2026-05-11 16:23:20,849 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:21,351 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:22,351 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:22,353 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:22,855 [INFO] control.planner – Obstacle at 1.8 cm
+2026-05-11 16:23:22,855 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:23,356 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:24,358 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:24,359 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:24,859 [INFO] control.planner – Obstacle at 1.7 cm
+2026-05-11 16:23:24,860 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:25,360 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:26,361 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:26,363 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:26,864 [INFO] control.planner – Obstacle at 1.7 cm
+2026-05-11 16:23:26,864 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:27,366 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:28,367 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:28,369 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:28,871 [INFO] control.planner – Obstacle at 1.7 cm
+2026-05-11 16:23:28,872 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:29,373 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:30,374 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:30,374 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:30,876 [INFO] control.planner – Obstacle at 3.3 cm
+2026-05-11 16:23:30,877 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:31,378 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:32,379 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:32,380 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:32,882 [INFO] control.planner – Obstacle at 1.7 cm
+2026-05-11 16:23:32,883 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:33,383 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:34,384 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:34,385 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:34,886 [INFO] control.planner – Obstacle at 2.3 cm
+2026-05-11 16:23:34,887 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:35,388 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:36,388 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:36,390 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:36,891 [INFO] control.planner – Obstacle at 1.7 cm
+2026-05-11 16:23:36,892 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:37,393 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:38,394 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:38,395 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:38,895 [INFO] control.planner – Obstacle at 2.6 cm
+2026-05-11 16:23:38,896 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:39,397 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:40,398 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:40,400 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:40,901 [INFO] control.planner – Obstacle at 3.3 cm
+2026-05-11 16:23:40,902 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:41,404 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:42,405 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:42,406 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:42,907 [INFO] control.planner – Obstacle at 2.7 cm
+2026-05-11 16:23:42,907 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:43,408 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:44,409 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:44,410 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:44,910 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-11 16:23:44,911 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:45,412 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:46,417 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:46,434 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:46,935 [INFO] control.planner – Obstacle at 10.2 cm
+2026-05-11 16:23:46,935 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:47,436 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:48,437 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:48,439 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:48,940 [INFO] control.planner – Obstacle at 2.3 cm
+2026-05-11 16:23:48,941 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:49,442 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:50,443 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:50,444 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:50,946 [INFO] control.planner – Obstacle at 8.9 cm
+2026-05-11 16:23:50,946 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:51,447 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:52,448 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:52,450 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:52,950 [INFO] control.planner – Obstacle at 2.7 cm
+2026-05-11 16:23:52,951 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:53,453 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:54,454 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:54,455 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:54,955 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:23:54,956 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:55,457 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:56,458 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:56,460 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:56,961 [INFO] control.planner – Obstacle at 11.9 cm
+2026-05-11 16:23:56,961 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:57,462 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:23:58,465 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:23:58,466 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:23:58,967 [INFO] control.planner – Obstacle at 11.9 cm
+2026-05-11 16:23:58,968 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:23:59,470 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:00,470 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:00,471 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:01,472 [INFO] control.planner – Obstacle at 18.6 cm
+2026-05-11 16:24:01,473 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:01,974 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:02,975 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:02,976 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:03,978 [INFO] control.planner – Obstacle at 21.1 cm
+2026-05-11 16:24:03,980 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:04,483 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:05,486 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:05,488 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:07,990 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 16:24:07,991 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:08,491 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:09,492 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:09,493 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:11,994 [INFO] control.planner – Obstacle at 22.7 cm
+2026-05-11 16:24:11,995 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:12,496 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:13,497 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:13,498 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:13,998 [INFO] control.planner – Obstacle at 21.1 cm
+2026-05-11 16:24:13,999 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:14,501 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:15,502 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:15,502 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:16,003 [INFO] control.planner – Obstacle at 21.1 cm
+2026-05-11 16:24:16,004 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:16,505 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:17,506 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:17,507 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:18,007 [INFO] control.planner – Obstacle at 19.5 cm
+2026-05-11 16:24:18,009 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:18,511 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:19,511 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:19,512 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:20,013 [INFO] control.planner – Obstacle at 21.2 cm
+2026-05-11 16:24:20,014 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:20,516 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:21,517 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:21,518 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:22,019 [INFO] control.planner – Obstacle at 19.8 cm
+2026-05-11 16:24:22,019 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:22,520 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:23,521 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:23,522 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:24,022 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 16:24:24,023 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:24,524 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:25,525 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:25,526 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:27,531 [INFO] control.planner – Obstacle at 21.5 cm
+2026-05-11 16:24:27,531 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:28,033 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:29,034 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:29,035 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:29,536 [INFO] control.planner – Obstacle at 21.5 cm
+2026-05-11 16:24:29,538 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:30,039 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:31,040 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:31,041 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:31,542 [INFO] control.planner – Obstacle at 21.5 cm
+2026-05-11 16:24:31,543 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:32,044 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:33,045 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:33,046 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:33,547 [INFO] control.planner – Obstacle at 20.5 cm
+2026-05-11 16:24:33,548 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:34,049 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:35,050 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:35,051 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:35,552 [INFO] control.planner – Obstacle at 20.2 cm
+2026-05-11 16:24:35,552 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:36,054 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:37,055 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:37,056 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:37,558 [INFO] control.planner – Obstacle at 18.9 cm
+2026-05-11 16:24:37,558 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:38,060 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:39,061 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:39,061 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:40,062 [INFO] control.planner – Obstacle at 21.5 cm
+2026-05-11 16:24:40,063 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:40,563 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:41,564 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:41,565 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:42,066 [INFO] control.planner – Obstacle at 18.6 cm
+2026-05-11 16:24:42,067 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:42,568 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:43,569 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:43,570 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:44,070 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-11 16:24:44,071 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:44,572 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:45,573 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:45,574 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:46,076 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-11 16:24:46,077 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:46,578 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:47,579 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:47,580 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:48,081 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-11 16:24:48,081 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:48,582 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:49,583 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:49,584 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:50,086 [INFO] control.planner – Obstacle at 4.2 cm
+2026-05-11 16:24:50,086 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:50,588 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:51,589 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:51,590 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:52,091 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:24:52,092 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:52,592 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:53,593 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:53,594 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:54,095 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:24:54,096 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:54,596 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:55,598 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:55,599 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:56,100 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:24:56,100 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:56,602 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:57,603 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:57,605 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:24:58,106 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:24:58,106 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:24:58,630 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:24:59,633 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:24:59,635 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:00,136 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:25:00,137 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:00,637 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:01,638 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:01,639 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:02,140 [INFO] control.planner – Obstacle at 3.3 cm
+2026-05-11 16:25:02,141 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:02,642 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:03,643 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:03,643 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:04,143 [INFO] control.planner – Obstacle at 3.3 cm
+2026-05-11 16:25:04,144 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:04,644 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:05,646 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:05,647 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:06,147 [INFO] control.planner – Obstacle at 3.0 cm
+2026-05-11 16:25:06,147 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:06,647 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:07,648 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:07,649 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:08,150 [INFO] control.planner – Obstacle at 4.9 cm
+2026-05-11 16:25:08,150 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:08,651 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:09,652 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:09,653 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:10,153 [INFO] control.planner – Obstacle at 4.9 cm
+2026-05-11 16:25:10,154 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:10,655 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:11,656 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:11,657 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:12,158 [INFO] control.planner – Obstacle at 4.9 cm
+2026-05-11 16:25:12,159 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:12,659 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:13,660 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:13,661 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:14,161 [INFO] control.planner – Obstacle at 4.9 cm
+2026-05-11 16:25:14,162 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:14,664 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:15,665 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:15,665 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:16,166 [INFO] control.planner – Obstacle at 4.9 cm
+2026-05-11 16:25:16,167 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:16,669 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:17,670 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:17,671 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:18,173 [INFO] control.planner – Obstacle at 4.6 cm
+2026-05-11 16:25:18,174 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:18,674 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:19,676 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:19,677 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:20,178 [INFO] control.planner – Obstacle at 5.9 cm
+2026-05-11 16:25:20,179 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:20,681 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:21,682 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:21,683 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:22,184 [INFO] control.planner – Obstacle at 5.6 cm
+2026-05-11 16:25:22,184 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:22,685 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:23,686 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:23,687 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:24,188 [INFO] control.planner – Obstacle at 5.6 cm
+2026-05-11 16:25:24,189 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:24,691 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:25,692 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:25,693 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:26,195 [INFO] control.planner – Obstacle at 5.6 cm
+2026-05-11 16:25:26,196 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:26,696 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:27,698 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:27,699 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:32,705 [INFO] control.planner – Obstacle at 16.6 cm
+2026-05-11 16:25:32,706 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:33,207 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:34,207 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:34,208 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:34,709 [INFO] control.planner – Obstacle at 23.9 cm
+2026-05-11 16:25:34,710 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:35,212 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:36,216 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:36,218 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:36,719 [INFO] control.planner – Obstacle at 11.2 cm
+2026-05-11 16:25:36,720 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:37,221 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:38,223 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:38,224 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:38,726 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:25:38,726 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:39,228 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:40,233 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:40,234 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:40,734 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:25:40,735 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:41,237 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:42,237 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:42,238 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:42,739 [INFO] control.planner – Obstacle at 5.2 cm
+2026-05-11 16:25:42,740 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:43,241 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:44,241 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:44,243 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:45,249 [INFO] control.planner – Obstacle at 6.5 cm
+2026-05-11 16:25:45,249 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:45,751 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:46,751 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:46,752 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:47,252 [INFO] control.planner – Obstacle at 2.0 cm
+2026-05-11 16:25:47,252 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:47,753 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:48,754 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:48,754 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:49,255 [INFO] control.planner – Obstacle at 2.0 cm
+2026-05-11 16:25:49,256 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:49,756 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:50,757 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:50,758 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:51,259 [INFO] control.planner – Obstacle at 5.6 cm
+2026-05-11 16:25:51,260 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:51,761 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:52,761 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:52,762 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:53,264 [INFO] control.planner – Obstacle at 3.3 cm
+2026-05-11 16:25:53,264 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:53,765 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:54,766 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:54,767 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:55,268 [INFO] control.planner – Obstacle at 3.0 cm
+2026-05-11 16:25:55,269 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:55,770 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:56,771 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:56,772 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:57,274 [INFO] control.planner – Obstacle at 10.9 cm
+2026-05-11 16:25:57,275 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:57,775 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:25:58,777 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:25:58,777 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:25:59,278 [INFO] control.planner – Obstacle at 5.9 cm
+2026-05-11 16:25:59,279 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:25:59,780 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:00,781 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:00,782 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:01,783 [INFO] control.planner – Obstacle at 11.9 cm
+2026-05-11 16:26:01,785 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:02,285 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:03,291 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:03,292 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:07,797 [INFO] control.planner – Obstacle at 24.1 cm
+2026-05-11 16:26:07,797 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:08,299 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:09,300 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:09,301 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:13,302 [INFO] control.planner – Obstacle at 9.5 cm
+2026-05-11 16:26:13,304 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:13,805 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:14,806 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:14,807 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:15,311 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:26:15,312 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:15,814 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:16,815 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:16,816 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:20,323 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-11 16:26:20,324 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:20,825 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:21,826 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:21,827 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:22,328 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:26:22,329 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:22,830 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:23,830 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:23,831 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:26,833 [INFO] control.planner – Obstacle at 14.3 cm
+2026-05-11 16:26:26,834 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:27,335 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:28,336 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:28,337 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:28,839 [INFO] control.planner – Obstacle at 2.0 cm
+2026-05-11 16:26:28,840 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:29,341 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:30,342 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:30,344 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:30,844 [INFO] control.planner – Obstacle at 3.0 cm
+2026-05-11 16:26:30,845 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:31,347 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:32,348 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:32,350 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:32,850 [INFO] control.planner – Obstacle at 2.0 cm
+2026-05-11 16:26:32,850 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:33,351 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:34,352 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:34,353 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:34,854 [INFO] control.planner – Obstacle at 2.3 cm
+2026-05-11 16:26:34,855 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:35,356 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:36,357 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:36,359 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:36,859 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-11 16:26:36,860 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:37,372 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:38,376 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:38,377 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:26:38,878 [INFO] control.planner – Obstacle at 7.8 cm
+2026-05-11 16:26:38,878 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:26:39,380 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:26:40,381 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:26:40,382 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+                                                                                   2026-05-11 16:32:15,612 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:32:15,612 [INFO] main –    AgriRover starting up               
+2026-05-11 16:32:15,612 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:32:15,613 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 16:32:16,329 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 16:32:16,330 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 16:32:16,335 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 16:32:16,339 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 16:32:16,368 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 16:32:18,369 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 16:32:18,370 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 16:32:18,376 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-11 16:32:18,394 [INFO] memory.database – Session 13 started.
+2026-05-11 16:32:18,395 [INFO] control.planner – Rover starting – session 13
+2026-05-11 16:32:18,396 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 16:32:34,180 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 16:33:18,473 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 16:33:18,474 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 16:33:18,499 [INFO] memory.database – Session 13 ended (0 detections).
+2026-05-11 16:33:18,500 [INFO] memory.database – Database closed.
+2026-05-11 16:33:18,501 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 16:33:18,502 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 16:33:18,502 [INFO] main – Rover shutdown complete.
+2026-05-11 16:33:18,881 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 16:36:50,206 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:36:50,208 [INFO] main –    AgriRover starting up               
+2026-05-11 16:36:50,208 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:36:50,208 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 16:36:50,502 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 16:36:50,503 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 16:36:50,509 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 16:36:50,512 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 16:36:50,540 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 16:36:52,540 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 16:36:52,541 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 16:36:52,543 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-11 16:36:52,552 [INFO] memory.database – Session 14 started.
+2026-05-11 16:36:52,553 [INFO] control.planner – Rover starting – session 14
+2026-05-11 16:36:52,553 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 16:36:58,583 [INFO] control.planner – Obstacle at 2.3 cm
+2026-05-11 16:36:58,584 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:36:59,086 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:00,087 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:00,089 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:00,589 [INFO] control.planner – Obstacle at 2.6 cm
+2026-05-11 16:37:00,590 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:01,091 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:02,093 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:02,094 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:02,594 [INFO] control.planner – Obstacle at 3.9 cm
+2026-05-11 16:37:02,595 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:03,096 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:04,097 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:04,098 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:04,599 [INFO] control.planner – Obstacle at 15.3 cm
+2026-05-11 16:37:04,600 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:05,101 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:06,102 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:06,102 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:06,603 [INFO] control.planner – Obstacle at 12.0 cm
+2026-05-11 16:37:06,604 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:07,105 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:08,106 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:08,107 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:08,608 [INFO] control.planner – Obstacle at 13.3 cm
+2026-05-11 16:37:08,609 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:09,110 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:10,111 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:10,112 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:10,613 [INFO] control.planner – Obstacle at 14.3 cm
+2026-05-11 16:37:10,614 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:11,115 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:12,116 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:12,116 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:12,617 [INFO] control.planner – Obstacle at 14.0 cm
+2026-05-11 16:37:12,618 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:13,120 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:14,120 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:14,122 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:14,623 [INFO] control.planner – Obstacle at 20.2 cm
+2026-05-11 16:37:14,623 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:15,125 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:16,130 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:16,131 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:16,631 [INFO] control.planner – Obstacle at 20.8 cm
+2026-05-11 16:37:16,632 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:17,133 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:18,134 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:18,135 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:43,654 [INFO] control.planner – Obstacle at 24.1 cm
+2026-05-11 16:37:43,655 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:44,156 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:45,156 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:45,158 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:45,659 [INFO] control.planner – Obstacle at 21.5 cm
+2026-05-11 16:37:45,660 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:46,161 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:47,164 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:47,165 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:37:47,667 [INFO] control.planner – Obstacle at 23.9 cm
+2026-05-11 16:37:47,667 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:37:48,169 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:37:49,170 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:37:49,171 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:38:12,206 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:38:12,206 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:38:12,707 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:38:13,709 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:38:13,709 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:39:56,099 [INFO] control.planner – Obstacle at 8.8 cm
+2026-05-11 16:39:56,099 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:39:56,599 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:39:57,600 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:39:57,601 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:40:53,200 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 16:41:52,615 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 16:41:52,616 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 16:41:52,627 [INFO] memory.database – Session 14 ended (0 detections).
+2026-05-11 16:41:52,629 [INFO] memory.database – Database closed.
+2026-05-11 16:41:52,629 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 16:41:52,630 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 16:41:52,631 [INFO] main – Rover shutdown complete.
+2026-05-11 16:41:53,021 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 16:45:35,456 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:45:35,458 [INFO] main –    AgriRover starting up               
+2026-05-11 16:45:35,459 [INFO] main – ═══════════════════════════════════════
+2026-05-11 16:45:35,459 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 16:45:36,183 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 16:45:36,184 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 16:45:36,192 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 16:45:36,194 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 16:45:36,232 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 16:45:38,234 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 16:45:38,234 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 16:45:38,243 [INFO] memory.database – Database ready: /home/pi/agri_rover/robot/memory/rover.db
+2026-05-11 16:45:38,261 [INFO] memory.database – Session 15 started.
+2026-05-11 16:45:38,261 [INFO] control.planner – Rover starting – session 15
+2026-05-11 16:45:38,262 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 16:45:44,776 [INFO] control.planner – Obstacle at 2.7 cm
+2026-05-11 16:45:44,777 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:45:45,279 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:45:46,280 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:45:46,280 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:45:46,782 [INFO] control.planner – Obstacle at 3.0 cm
+2026-05-11 16:45:46,783 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:45:47,284 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:45:48,285 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:45:48,286 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:45:48,788 [INFO] control.planner – Obstacle at 9.9 cm
+2026-05-11 16:45:48,789 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:45:49,291 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:45:50,292 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:45:50,293 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:45:50,794 [INFO] control.planner – Obstacle at 13.6 cm
+2026-05-11 16:45:50,796 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:45:51,298 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:45:52,299 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:45:52,300 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:45:54,314 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 16:45:54,315 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:45:54,817 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:45:55,818 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:45:55,819 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:45:57,319 [INFO] control.planner – Obstacle at 6.5 cm
+2026-05-11 16:45:57,320 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:45:57,820 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:45:58,821 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:45:58,822 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:45:59,324 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:45:59,325 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:45:59,827 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:00,828 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:00,829 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:01,330 [INFO] control.planner – Obstacle at 3.0 cm
+2026-05-11 16:46:01,331 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:01,832 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:02,833 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:02,833 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:03,335 [INFO] control.planner – Obstacle at 16.6 cm
+2026-05-11 16:46:03,336 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:03,837 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:04,838 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:04,839 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:28,365 [INFO] control.planner – Obstacle at 14.0 cm
+2026-05-11 16:46:28,366 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:28,867 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:29,868 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:29,869 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:30,371 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:46:30,372 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:30,874 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:31,875 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:31,876 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:32,378 [INFO] control.planner – Obstacle at 12.9 cm
+2026-05-11 16:46:32,378 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:32,880 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:33,882 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:33,883 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:34,383 [INFO] control.planner – Obstacle at 14.3 cm
+2026-05-11 16:46:34,384 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:34,885 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:35,886 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:35,887 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:36,389 [INFO] control.planner – Obstacle at 9.5 cm
+2026-05-11 16:46:36,389 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:36,889 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:37,890 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:37,892 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:38,392 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:46:38,392 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:38,894 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:39,896 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:39,897 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:40,398 [INFO] control.planner – Obstacle at 11.6 cm
+2026-05-11 16:46:40,399 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:40,900 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:41,904 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:41,905 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:42,407 [INFO] control.planner – Obstacle at 13.6 cm
+2026-05-11 16:46:42,407 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:42,908 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:43,909 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:43,911 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:44,411 [INFO] control.planner – Obstacle at 12.6 cm
+2026-05-11 16:46:44,412 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:44,913 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:45,915 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:45,916 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:46,417 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:46:46,418 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:46,920 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:47,920 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:47,922 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:48,424 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:46:48,424 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:48,925 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:49,926 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:49,927 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:50,429 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:46:50,430 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:50,931 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:51,933 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:51,934 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:52,435 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:46:52,436 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:52,937 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:53,938 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:53,940 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:54,440 [INFO] control.planner – Obstacle at 16.6 cm
+2026-05-11 16:46:54,441 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:54,942 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:55,943 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:55,944 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:56,445 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:46:56,447 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:56,948 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:57,949 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:57,950 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:46:58,451 [INFO] control.planner – Obstacle at 17.6 cm
+2026-05-11 16:46:58,451 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:46:58,953 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:46:59,954 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:46:59,955 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:00,455 [INFO] control.planner – Obstacle at 19.5 cm
+2026-05-11 16:47:00,456 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:00,958 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:01,959 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:01,960 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:02,461 [INFO] control.planner – Obstacle at 16.6 cm
+2026-05-11 16:47:02,462 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:02,964 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:03,965 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:03,966 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:04,467 [INFO] control.planner – Obstacle at 15.6 cm
+2026-05-11 16:47:04,468 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:04,969 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:05,970 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:05,971 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:06,472 [INFO] control.planner – Obstacle at 5.9 cm
+2026-05-11 16:47:06,473 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:06,974 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:07,975 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:07,976 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:08,477 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:47:08,477 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:08,979 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:09,981 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:09,982 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:16,487 [INFO] control.planner – Obstacle at 10.9 cm
+2026-05-11 16:47:16,488 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:16,988 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:17,989 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:17,990 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:30,510 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:47:30,511 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:31,013 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:32,014 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:32,015 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:47:37,029 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:47:37,030 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:47:37,531 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:47:38,531 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:47:38,532 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:30,119 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:30,378 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:30,881 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:31,920 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:31,921 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:32,422 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:32,422 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:32,923 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:33,924 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:33,925 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:34,426 [INFO] control.planner – Obstacle at 18.8 cm
+2026-05-11 16:48:34,427 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:34,927 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:35,928 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:35,928 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:36,429 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:36,430 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:36,930 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:37,931 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:37,933 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:38,433 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:38,434 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:38,934 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:39,935 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:39,935 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:40,436 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:40,437 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:40,938 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:41,940 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:41,941 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:42,442 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:42,443 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:42,944 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:43,945 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:43,945 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:44,446 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:44,447 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:44,948 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:45,949 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:45,950 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:46,452 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:46,453 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:46,954 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:47,954 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:47,956 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:48,458 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:48,458 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:48,958 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:49,959 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:49,959 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:50,461 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:50,461 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:50,961 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:51,962 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:51,963 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:52,463 [INFO] control.planner – Obstacle at 6.8 cm
+2026-05-11 16:48:52,464 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:52,965 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:53,966 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:54,038 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:54,539 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:54,541 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:55,043 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:56,046 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:56,046 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:56,548 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:48:56,549 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:57,049 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:48:58,050 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:48:58,050 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:48:58,552 [INFO] control.planner – Obstacle at 16.2 cm
+2026-05-11 16:48:58,552 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:48:59,053 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:00,053 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:00,054 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:01,056 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:01,056 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:01,556 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:02,557 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:02,559 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:03,059 [INFO] control.planner – Obstacle at 22.0 cm
+2026-05-11 16:49:03,059 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:03,561 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:04,562 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:04,562 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:05,062 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:05,063 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:05,565 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:06,567 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:06,568 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:07,069 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:07,070 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:07,572 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:08,573 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:08,576 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:09,078 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:09,078 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:09,578 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:10,579 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:10,580 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:11,080 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:11,081 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:11,582 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:12,583 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:12,584 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:13,084 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:13,085 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:13,587 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:14,587 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:14,588 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:15,090 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:15,090 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:15,591 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:16,592 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:16,593 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:17,094 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:17,095 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:17,595 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:18,596 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:18,597 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:19,097 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:19,097 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:19,597 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:20,598 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:20,599 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:21,099 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:21,099 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:21,600 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:22,601 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:22,602 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:23,103 [INFO] control.planner – Obstacle at 15.7 cm
+2026-05-11 16:49:23,104 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:23,604 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:24,605 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:24,606 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:25,108 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:25,108 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:25,609 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:26,609 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:26,610 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:27,110 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:27,111 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:27,611 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:28,612 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:28,613 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:29,113 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:29,113 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:29,615 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:30,617 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:30,618 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:31,118 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:31,118 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:31,618 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:32,619 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:32,619 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:33,120 [INFO] control.planner – Obstacle at 15.1 cm
+2026-05-11 16:49:33,120 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:33,622 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:34,623 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:34,624 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:35,124 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:35,125 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:35,626 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:36,626 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:36,627 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:37,128 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:37,128 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:37,629 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:38,630 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:38,631 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:39,132 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:39,132 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:39,632 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:40,639 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:40,640 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:41,141 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:41,141 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:41,643 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:42,643 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:42,644 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:43,144 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:43,145 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:43,646 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:44,647 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:44,648 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:45,148 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:49:45,148 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:45,650 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:46,650 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:46,651 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:47,152 [INFO] control.planner – Obstacle at 15.7 cm
+2026-05-11 16:49:47,153 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:47,654 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:48,655 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:48,656 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:49,156 [INFO] control.planner – Obstacle at 16.5 cm
+2026-05-11 16:49:49,157 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:49,659 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:50,660 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:50,661 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:53,168 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:53,168 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:53,669 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:54,674 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:54,675 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:55,175 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:55,176 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:55,678 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:56,679 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:56,680 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:49:57,683 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:49:57,683 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:49:58,183 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:49:59,183 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:49:59,184 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:00,185 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:00,185 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:00,687 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:01,688 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:01,689 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:03,193 [INFO] control.planner – Obstacle at 17.8 cm
+2026-05-11 16:50:03,195 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:03,704 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:04,705 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:04,706 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:05,708 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:05,708 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:06,210 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:07,213 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:07,214 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:23,282 [INFO] control.planner – Obstacle at 16.6 cm
+2026-05-11 16:50:23,291 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:23,792 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:24,797 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:24,798 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:25,299 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:25,299 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:25,799 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:26,800 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:26,801 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:27,301 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:27,301 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:27,802 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:28,804 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:28,807 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:29,307 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:29,308 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:29,808 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:30,809 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:30,810 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:31,310 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:31,311 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:31,812 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:32,813 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:32,814 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:33,314 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:33,315 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:33,815 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:34,816 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:34,817 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:36,820 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:36,821 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:37,322 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:38,325 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:38,326 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:38,829 [INFO] control.planner – Obstacle at 17.0 cm
+2026-05-11 16:50:38,838 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:39,344 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:40,345 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:40,346 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:40,847 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:50:40,848 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:41,349 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:42,350 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:42,350 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:42,851 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:42,851 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:43,352 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:44,353 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:44,354 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:45,355 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:45,362 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:45,862 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:46,863 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:46,864 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:47,364 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:47,365 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:47,865 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:48,866 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:48,867 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:49,370 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:49,371 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:49,871 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:50,872 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:50,873 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:51,374 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:51,379 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:51,880 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:52,880 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:52,881 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:53,382 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:53,383 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:53,883 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:54,884 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:54,888 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:55,389 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:55,389 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:55,890 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:56,891 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:56,892 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:57,392 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:57,392 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:57,893 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:50:58,893 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:50:58,894 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:50:59,394 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:50:59,395 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:50:59,895 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:00,896 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:00,897 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:01,398 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 16:51:01,399 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:01,901 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:02,901 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:02,902 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:03,403 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:03,404 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:03,904 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:04,905 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:04,906 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:05,407 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:05,408 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:05,909 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:06,910 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:06,911 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:07,411 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:07,412 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:07,912 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:08,913 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:08,914 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:09,414 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:09,414 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:09,915 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:10,916 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:10,917 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:11,418 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:11,418 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:11,919 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:12,921 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:12,925 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:13,428 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:13,428 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:13,931 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:14,933 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:14,935 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:15,437 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:15,438 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:15,939 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:16,941 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:16,942 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:17,444 [INFO] control.planner – Obstacle at 14.1 cm
+2026-05-11 16:51:17,445 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:17,946 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:18,947 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:18,947 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:19,448 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:19,448 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:19,950 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:20,951 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:20,951 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:21,453 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:21,453 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:21,953 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:22,953 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:22,955 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:23,455 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:23,455 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:23,955 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:24,955 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:24,956 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:25,457 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:25,457 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:25,957 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:26,958 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:26,958 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:27,460 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:27,460 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:27,960 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:28,961 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:28,962 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:29,463 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:29,465 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:29,966 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:30,967 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:30,968 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:31,468 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:31,469 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:31,969 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:32,970 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:32,971 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:33,471 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:33,472 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:33,972 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:34,976 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:34,976 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:35,477 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:35,478 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:35,980 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:36,981 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:36,984 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:37,485 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:37,485 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:37,986 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:38,986 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:38,988 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:39,492 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:39,494 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:40,000 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:41,001 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:41,002 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:41,502 [INFO] control.planner – Obstacle at 0.8 cm
+2026-05-11 16:51:41,503 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:42,005 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:43,006 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:43,008 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:43,509 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:43,509 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:44,010 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:45,012 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:45,012 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:45,514 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:45,515 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:46,017 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:47,018 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:47,019 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:47,520 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:47,521 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:48,023 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:49,024 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:49,026 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:49,527 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:49,529 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:50,031 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:51,034 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:51,036 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:51,536 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:51,537 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:52,038 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:53,039 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:53,040 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:53,542 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:53,543 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:54,045 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:55,046 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:55,047 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:55,547 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 16:51:55,548 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:56,049 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:57,052 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:57,052 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:57,554 [INFO] control.planner – Obstacle at 8.7 cm
+2026-05-11 16:51:57,554 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:51:58,054 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:51:59,056 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:51:59,057 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:51:59,558 [INFO] control.planner – Obstacle at 18.7 cm
+2026-05-11 16:51:59,559 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:00,060 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:01,060 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:01,064 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:02,066 [INFO] control.planner – Obstacle at 20.9 cm
+2026-05-11 16:52:02,066 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:02,566 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:03,567 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:03,568 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:05,570 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:52:05,570 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:06,071 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:07,072 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:07,073 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:07,575 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:52:07,575 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:08,076 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:09,077 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:09,078 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:09,580 [INFO] control.planner – Obstacle at 2.8 cm
+2026-05-11 16:52:09,584 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:10,086 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:11,087 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:11,088 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:11,589 [INFO] control.planner – Obstacle at 3.6 cm
+2026-05-11 16:52:11,589 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:12,091 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:13,091 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:13,092 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:13,593 [INFO] control.planner – Obstacle at 3.6 cm
+2026-05-11 16:52:13,594 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:14,095 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:15,096 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:15,097 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:15,600 [INFO] control.planner – Obstacle at 6.2 cm
+2026-05-11 16:52:15,601 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:16,102 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:17,103 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:17,104 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:17,605 [INFO] control.planner – Obstacle at 2.2 cm
+2026-05-11 16:52:17,607 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:18,120 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:19,132 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:19,136 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:19,638 [INFO] control.planner – Obstacle at 7.2 cm
+2026-05-11 16:52:19,639 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:20,139 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:21,142 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:21,142 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:21,645 [INFO] control.planner – Obstacle at 4.3 cm
+2026-05-11 16:52:21,646 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 16:52:22,147 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 16:52:23,148 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 16:52:23,148 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 16:52:32,117 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 16:52:38,317 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 16:52:38,318 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 16:52:38,423 [INFO] memory.database – Session 15 ended (0 detections).
+2026-05-11 16:52:38,425 [INFO] memory.database – Database closed.
+2026-05-11 16:52:38,425 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 16:52:38,426 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 16:52:38,427 [INFO] main – Rover shutdown complete.
+2026-05-11 16:52:38,754 [INFO] picamera2.picamera2 – Camera closed successfully.
