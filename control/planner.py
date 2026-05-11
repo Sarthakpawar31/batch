@@ -39,7 +39,7 @@ import cv2
 from config import LOOP_CFG, MOTOR_CFG, REPORT_DIR, AI_CFG
 from control.state_machine import State, StateMachine
 from hardware.motors     import MotorController
-from hardware.ultrasonic import async_read_distance_cm
+from hardware.ultrasonic import async_read_distance_cm, read_ir_sensors
 from vision.camera       import Camera
 from vision.leaf_detection import best_leaf
 from ai.classify         import DiseaseClassifier, PredictionResult
@@ -53,6 +53,8 @@ logger = logging.getLogger(__name__)
 class _SensorData:
     distance_cm: Optional[float] = None
     obstacle:    bool            = False
+    ir_left:     bool            = False
+    ir_right:    bool            = False
     leaf_found:  bool            = False
     last_frame:  Any             = None   # numpy array | None
 
@@ -92,7 +94,6 @@ class Planner:
 
         self._running = True
         self.sm.transition(State.EXPLORING)
-        self.motors.forward()
 
         tasks = [
             asyncio.create_task(self._sensor_loop(),   name="sensor"),
@@ -100,6 +101,14 @@ class Planner:
             asyncio.create_task(self._decision_loop(), name="decision"),
             asyncio.create_task(self._battery_loop(),  name="battery"),
         ]
+
+        if await self._wait_for_clear_path(timeout=1.0):
+            self.motors.forward()
+        else:
+            logger.warning(
+                "Starting path not clear; entering obstacle state instead of driving."
+            )
+            self.sm.transition(State.OBSTACLE)
 
         try:
             await asyncio.gather(*tasks)
@@ -117,9 +126,16 @@ class Planner:
         interval = 1.0 / LOOP_CFG.SENSOR_HZ
         while self._running:
             dist = await async_read_distance_cm()
+            ir_left, ir_right = await asyncio.get_event_loop().run_in_executor(
+                None, self._read_ir_sensors
+            )
+
             _sensors.distance_cm = dist
+            _sensors.ir_left     = ir_left
+            _sensors.ir_right    = ir_right
             _sensors.obstacle    = (
-                dist is not None and dist < MOTOR_CFG.OBSTACLE_DIST_CM
+                ir_left or ir_right
+                or (dist is not None and dist < MOTOR_CFG.OBSTACLE_DIST_CM)
             )
             await asyncio.sleep(interval)
 
@@ -204,8 +220,19 @@ class Planner:
         deadline = time.time() + timeout
         while time.time() < deadline:
             dist = await async_read_distance_cm()
+            ir_left, ir_right = await asyncio.get_event_loop().run_in_executor(
+                None, self._read_ir_sensors
+            )
             _sensors.distance_cm = dist
-            if dist is not None and dist >= MOTOR_CFG.CLEAR_DIST_CM:
+            _sensors.ir_left     = ir_left
+            _sensors.ir_right    = ir_right
+
+            if (
+                not ir_left
+                and not ir_right
+                and dist is not None
+                and dist >= MOTOR_CFG.CLEAR_DIST_CM
+            ):
                 return True
             await asyncio.sleep(0.1)
         return False

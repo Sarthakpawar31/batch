@@ -52,10 +52,9 @@ class MotorConfig:
     PWM_FREQ:          int   = 1000   # Hz
     DEFAULT_SPEED:     int   = 35     # % duty cycle  (0–100)
     TURN_SPEED:        int   = 10
-    OBSTACLE_DIST_CM:  float = 35.0   # stop if closer than this
-    CLEAR_DIST_CM:     float = 45.0   # require this to be clear before resuming
-    REVERSE_SECS:      float = 0.6
-    TURN_SECS:         float = 1.0
+    OBSTACLE_DIST_CM:  float = 25.0   # stop if closer than this
+    REVERSE_SECS:      float = 0.4
+    TURN_SECS:         float = 0.6
 
 MOTOR_CFG = MotorConfig()
 
