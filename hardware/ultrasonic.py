@@ -26,7 +26,7 @@ GPIO = get_gpio()
 # Speed of sound at ~20 °C in cm/s
 _SOUND_CM_S = 34300.0
 _TRIGGER_S  = 0.00001   # 10 µs trigger pulse
-_TIMEOUT_S  = 0.03      # 30 ms → max ~5 m range; avoids blocking
+_TIMEOUT_S  = 0.015      # 30 ms → max ~5 m range; avoids blocking
 
 
 def read_distance_cm() -> Optional[float]:
@@ -72,6 +72,21 @@ async def async_read_distance_cm() -> Optional[float]:
     """
     loop = asyncio.get_event_loop()
     return await loop.run_in_executor(None, read_distance_cm)
+
+
+def read_ir_sensors() -> tuple[bool, bool]:
+    """Read left/right IR proximity sensor states.
+
+    Returns (left_triggered, right_triggered). IR sensors are pulled up,
+    so GPIO.LOW means an obstacle is detected.
+    """
+    try:
+        left  = GPIO.input(SENSOR_PINS.IR_LEFT) == GPIO.LOW
+        right = GPIO.input(SENSOR_PINS.IR_RIGHT) == GPIO.LOW
+        return left, right
+    except Exception as exc:                       # pragma: no cover
+        logger.error("IR sensor read error: %s", exc)
+        return False, False
 
 
 def is_obstacle_ahead() -> bool:

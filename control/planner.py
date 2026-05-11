@@ -127,7 +127,7 @@ class Planner:
         while self._running:
             dist = await async_read_distance_cm()
             ir_left, ir_right = await asyncio.get_event_loop().run_in_executor(
-                None, self._read_ir_sensors
+                None, read_ir_sensors
             )
 
             _sensors.distance_cm = dist
@@ -221,7 +221,7 @@ class Planner:
         while time.time() < deadline:
             dist = await async_read_distance_cm()
             ir_left, ir_right = await asyncio.get_event_loop().run_in_executor(
-                None, self._read_ir_sensors
+                None, read_ir_sensors
             )
             _sensors.distance_cm = dist
             _sensors.ir_left     = ir_left
