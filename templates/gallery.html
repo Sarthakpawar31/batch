@@ -44,7 +44,12 @@
 
       <div class="thumbs" id="thumbs">
         {% for it in items %}
-          <img data-src="{{ it.url }}" data-disease="{{ it.disease }}" data-date="{{ it.date }}" data-cure="{{ it.cure }}" src="{{ it.url }}" alt="{{ it.disease }}" />
+          <div style="display:inline-block; text-align:center">
+            <img data-src="{{ it.url }}" data-disease="{{ it.disease }}" data-date="{{ it.date }}" data-cure="{{ it.cure }}" src="{{ it.url }}" alt="{{ it.disease }}" />
+            <div style="margin-top:.25rem">
+              <a href="/analyze_report/{{ it.filename }}">Analyze</a>
+            </div>
+          </div>
         {% endfor %}
       </div>
     </div>

@@ -189,6 +189,90 @@ def make_app() -> Flask:
 
                         return render_template("gallery.html", items=items)
 
+
+                    @app.route("/analyze_report/<path:filename>")
+                    def analyze_report(filename: str):
+                        """Analyze an existing image from REPORT_DIR and render the result page."""
+                        img_path = REPORT_DIR / filename
+                        if not img_path.exists() or not img_path.is_file():
+                            return render_template("result.html", error="Report image not found.")
+
+                        data = img_path.read_bytes()
+                        # Try Kindwise first when available
+                        if _USE_KINDWISE and _KINDWISE is not None:
+                            try:
+                                resp = _KINDWISE.analyse(img_path)
+                                # reuse the same parsing logic as upload
+                                result_block = resp.get("result", {}).get("disease", {})
+                                disease = None
+                                confidence = None
+                                cure_text = None
+                                if result_block.get("is_healthy") is True:
+                                    disease = "Healthy"
+                                    confidence = 1.0
+                                else:
+                                    suggestions = result_block.get("suggestions", [])
+                                    if suggestions:
+                                        top = suggestions[0]
+                                        disease = top.get("name")
+                                        confidence = float(top.get("probability", 0.0))
+                                        details = top.get("details", {}) or {}
+                                        treatment = details.get("treatment", {}) or {}
+                                        parts = []
+                                        for k in ("prevention", "biological", "chemical"):
+                                            tips = treatment.get(k, [])
+                                            if tips:
+                                                parts.append(f"{k.capitalize()}: " + "; ".join(tips[:2]))
+                                        if parts:
+                                            cure_text = " ".join(parts)
+
+                                if disease is not None:
+                                    top_k = []
+                                    suggestions = result_block.get("suggestions", [])
+                                    for s in suggestions[:3]:
+                                        top_k.append((s.get("name", ""), float(s.get("probability", 0.0))))
+
+                                    context = {
+                                        "disease": disease,
+                                        "confidence": round(confidence, 4) if confidence is not None else 0.0,
+                                        "severity": ("none" if disease == "Healthy" else "moderate"),
+                                        "top_k": top_k,
+                                        "is_healthy": disease == "Healthy",
+                                        "cure": cure_text or DISEASE_CURES.get(disease, "No treatment information available."),
+                                        "image_data": f"data:image/jpeg;base64,{base64.b64encode(data).decode('ascii')}",
+                                        "source": "Kindwise API",
+                                    }
+                                    return render_template("result.html", **context)
+                            except Exception:
+                                logger.exception("Kindwise analyze failed for report image; falling back to local model.")
+
+                        # Fallback to local classifier
+                        try:
+                            import cv2
+                            import numpy as np
+                            nparr = np.frombuffer(data, np.uint8)
+                            img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+                        except Exception:
+                            img = None
+
+                        classifier = DiseaseClassifier.get()
+                        result = classifier.predict(img) if img is not None else None
+                        if result is None:
+                            return render_template("result.html", error="Model unavailable or inference failed.")
+
+                        cure = DISEASE_CURES.get(result.disease, "No treatment information available.")
+                        context = {
+                            "disease": result.disease,
+                            "confidence": result.confidence,
+                            "severity": result.severity,
+                            "top_k": result.top_k,
+                            "is_healthy": result.is_healthy,
+                            "cure": cure,
+                            "image_data": f"data:image/jpeg;base64,{base64.b64encode(data).decode('ascii')}",
+                            "source": "Local model",
+                        }
+                        return render_template("result.html", **context)
+
             except Exception as exc:
                 logger.exception("Kindwise analyse failed: %s", exc)
                 # fall through to local model
