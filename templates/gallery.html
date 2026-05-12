@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Reports Gallery</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; padding: 1rem; }
+      .container { max-width: 1000px; margin: 0 auto; }
+      .viewer { display:flex; gap:1rem; align-items:flex-start }
+      .main { flex:1 }
+      .meta { width:320px }
+      img { max-width:100%; height:auto; display:block }
+      .thumbs { display:flex; gap:.5rem; flex-wrap:wrap; margin-top:1rem }
+      .thumbs img { width:120px; height:80px; object-fit:cover; cursor:pointer; border:2px solid transparent }
+      .thumbs img.active { border-color:#007bff }
+      .controls { margin: .5rem 0 }
+      button { padding:.4rem .8rem }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Reports Gallery</h1>
+      <p>Browse past detections. Click thumbnails or use Prev/Next to slide through images.</p>
+
+      <div class="viewer">
+        <div class="main">
+          <div class="controls">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+          </div>
+          <div id="imageWrap">
+            <img id="mainImage" src="" alt="" />
+          </div>
+        </div>
+
+        <div class="meta">
+          <h3 id="metaDisease">&nbsp;</h3>
+          <p><strong>Date:</strong> <span id="metaDate"></span></p>
+          <p><strong>Treatment / Cure:</strong></p>
+          <p id="metaCure"></p>
+        </div>
+      </div>
+
+      <div class="thumbs" id="thumbs">
+        {% for it in items %}
+          <img data-src="{{ it.url }}" data-disease="{{ it.disease }}" data-date="{{ it.date }}" data-cure="{{ it.cure }}" src="{{ it.url }}" alt="{{ it.disease }}" />
+        {% endfor %}
+      </div>
+    </div>
+
+    <script>
+      const thumbs = Array.from(document.querySelectorAll('#thumbs img'));
+      let index = 0;
+
+      function show(i) {
+        if (!thumbs.length) return;
+        index = (i + thumbs.length) % thumbs.length;
+        const img = thumbs[index];
+        document.getElementById('mainImage').src = img.dataset.src;
+        document.getElementById('metaDisease').textContent = img.dataset.disease;
+        document.getElementById('metaDate').textContent = img.dataset.date;
+        document.getElementById('metaCure').textContent = img.dataset.cure;
+        thumbs.forEach(t => t.classList.remove('active'));
+        img.classList.add('active');
+      }
+
+      document.getElementById('prev').addEventListener('click', () => show(index-1));
+      document.getElementById('next').addEventListener('click', () => show(index+1));
+
+      thumbs.forEach((t, i) => t.addEventListener('click', () => show(i)));
+
+      // start on first
+      if (thumbs.length) show(0);
+    </script>
+  </body>
+</html>

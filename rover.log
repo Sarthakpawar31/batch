@@ -2173,3 +2173,1786 @@ No detections recorded this session.
 2026-05-11 16:52:38,426 [INFO] hardware.gpio_config – GPIO cleaned up.
 2026-05-11 16:52:38,427 [INFO] main – Rover shutdown complete.
 2026-05-11 16:52:38,754 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 17:09:29,566 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:09:29,566 [INFO] main –    AgriRover starting up               
+2026-05-11 17:09:29,567 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:09:29,567 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 17:09:29,850 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 17:09:29,851 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 17:09:29,856 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 17:09:29,858 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 17:09:29,884 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 17:09:31,884 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 17:09:31,885 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 17:09:31,888 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 17:09:31,904 [INFO] memory.database – Session 16 started.
+2026-05-11 17:09:31,905 [INFO] control.planner – Rover starting – session 16
+2026-05-11 17:09:31,905 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 17:09:35,923 [INFO] control.planner – Obstacle at 31.2 cm
+2026-05-11 17:09:35,924 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:09:36,425 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:09:36,426 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:09:38,027 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:09:38,772 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:09:38,772 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:09:39,773 [INFO] control.planner – Obstacle at 14.3 cm
+2026-05-11 17:09:39,775 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:09:40,280 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:09:40,282 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:09:41,883 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:09:43,456 [WARNING] control.planner – Path still blocked at 29.9 cm after avoidance.
+2026-05-11 17:09:43,457 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:09:43,458 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:09:45,058 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:09:45,065 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:09:45,066 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:09:46,068 [INFO] control.planner – Obstacle at 27.9 cm
+2026-05-11 17:09:46,069 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:09:46,570 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:09:46,571 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:09:48,172 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:09:49,750 [WARNING] control.planner – Path still blocked at 37.2 cm after avoidance.
+2026-05-11 17:09:49,751 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:09:49,752 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:09:51,354 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:09:51,362 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:09:51,363 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:09:53,865 [INFO] control.planner – Obstacle at 33.2 cm
+2026-05-11 17:09:53,865 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:09:54,367 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:09:54,368 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:09:55,970 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:09:56,084 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:09:56,085 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:09:57,085 [INFO] control.planner – Obstacle at 25.6 cm
+2026-05-11 17:09:57,086 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:09:57,587 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:09:57,588 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:09:59,189 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:10:00,775 [WARNING] control.planner – Path still blocked at 43.4 cm after avoidance.
+2026-05-11 17:10:00,776 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:10:00,777 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:10:02,377 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:10:02,385 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:10:02,385 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:10:03,386 [INFO] control.planner – Obstacle at 29.4 cm
+2026-05-11 17:10:03,388 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+                                                                                                                                                                                                                               2026-05-11 17:18:06,584 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:18:06,587 [INFO] main –    AgriRover starting up               
+2026-05-11 17:18:06,588 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:18:06,588 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 17:18:07,376 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 17:18:07,376 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 17:18:07,382 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 17:18:07,384 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 17:18:07,417 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 17:18:09,418 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 17:18:09,419 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 17:18:09,423 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 17:18:09,438 [INFO] memory.database – Session 17 started.
+2026-05-11 17:18:09,438 [INFO] control.planner – Rover starting – session 17
+2026-05-11 17:18:09,439 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 17:18:09,473 [CRITICAL] main – Unhandled exception: 'MotorConfig' object has no attribute 'CLEAR_DIST_CM'
+Traceback (most recent call last):
+  File "/home/pi/batch/main.py", line 71, in main
+    await planner.run()
+  File "/home/pi/batch/control/planner.py", line 105, in run
+    if await self._wait_for_clear_path(timeout=1.0):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pi/batch/control/planner.py", line 234, in _wait_for_clear_path
+    and dist >= MOTOR_CFG.CLEAR_DIST_CM
+                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MotorConfig' object has no attribute 'CLEAR_DIST_CM'
+2026-05-11 17:18:09,483 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 17:18:09,483 [INFO] main – Rover shutdown complete.
+2026-05-11 17:20:24,637 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:20:24,637 [INFO] main –    AgriRover starting up               
+2026-05-11 17:20:24,637 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:20:24,637 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 17:20:24,909 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 17:20:24,910 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 17:20:24,915 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 17:20:24,918 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 17:20:24,941 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 17:20:26,941 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 17:20:26,942 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 17:20:26,944 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 17:20:26,962 [INFO] memory.database – Session 18 started.
+2026-05-11 17:20:26,962 [INFO] control.planner – Rover starting – session 18
+2026-05-11 17:20:26,963 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 17:20:31,482 [INFO] control.planner – Obstacle at 11.2 cm
+2026-05-11 17:20:31,483 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:20:31,983 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:20:31,984 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:33,590 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:35,168 [WARNING] control.planner – Path still blocked at 25.6 cm after avoidance.
+2026-05-11 17:20:35,169 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:20:35,169 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:36,770 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:36,778 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:20:36,779 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:20:37,780 [INFO] control.planner – Obstacle at 28.5 cm
+2026-05-11 17:20:37,780 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:20:38,281 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:20:38,282 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:39,883 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:41,453 [WARNING] control.planner – Path still blocked at 28.2 cm after avoidance.
+2026-05-11 17:20:41,454 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:20:41,454 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:43,055 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:44,642 [WARNING] control.planner – Path still blocked at 43.6 cm after avoidance.
+2026-05-11 17:20:44,643 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 17:20:44,644 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:46,245 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:46,253 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:20:46,254 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:20:47,254 [INFO] control.planner – Obstacle at 34.6 cm
+2026-05-11 17:20:47,259 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:20:47,759 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:20:47,760 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:49,361 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:50,961 [WARNING] control.planner – Path still blocked at 42.5 cm after avoidance.
+2026-05-11 17:20:50,962 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:20:50,963 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:52,564 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:54,163 [WARNING] control.planner – Path still blocked at 40.9 cm after avoidance.
+2026-05-11 17:20:54,164 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 17:20:54,165 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:55,765 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:20:55,773 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:20:55,774 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:20:56,775 [INFO] control.planner – Obstacle at 31.9 cm
+2026-05-11 17:20:56,776 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:20:57,278 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:20:57,279 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:20:58,880 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:21:00,055 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:21:00,056 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:21:00,557 [INFO] control.planner – Obstacle at 31.5 cm
+2026-05-11 17:21:00,557 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:21:01,057 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:21:01,058 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:21:02,659 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:21:04,251 [WARNING] control.planner – Path still blocked at 37.5 cm after avoidance.
+2026-05-11 17:21:04,252 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:21:04,253 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:21:04,392 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 17:21:05,854 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:21:06,712 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:21:06,712 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:21:27,018 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 17:21:27,019 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 17:21:27,042 [INFO] memory.database – Session 18 ended (0 detections).
+2026-05-11 17:21:27,044 [INFO] memory.database – Database closed.
+2026-05-11 17:21:27,044 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 17:21:27,045 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 17:21:27,045 [INFO] main – Rover shutdown complete.
+2026-05-11 17:21:27,427 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 17:41:32,119 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:41:32,120 [INFO] main –    AgriRover starting up               
+2026-05-11 17:41:32,120 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:41:32,120 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 17:41:32,386 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 17:41:32,387 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 17:41:32,392 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 17:41:32,396 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 17:41:32,418 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 17:41:34,419 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 17:41:34,419 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 17:41:34,422 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 17:41:34,432 [INFO] memory.database – Session 19 started.
+2026-05-11 17:41:34,433 [INFO] control.planner – Rover starting – session 19
+2026-05-11 17:41:34,433 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 17:41:35,539 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 17:41:35,540 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:41:35,963 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:41:35,964 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:41:36,032 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:41:36,033 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:41:36,034 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:41:37,564 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:41:39,075 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 17:41:39,076 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:41:39,076 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:41:40,677 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:41:42,203 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 17:41:42,214 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 17:41:42,219 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:41:42,627 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:41:42,628 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:41:42,629 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:41:43,820 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:41:43,983 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:41:43,983 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:41:49,208 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:41:49,210 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:41:49,212 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:41:49,673 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 17:42:34,504 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 17:42:34,505 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 17:42:34,517 [INFO] memory.database – Session 19 ended (0 detections).
+2026-05-11 17:42:34,519 [INFO] memory.database – Database closed.
+2026-05-11 17:42:34,519 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 17:42:34,520 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 17:42:34,521 [INFO] main – Rover shutdown complete.
+2026-05-11 17:42:34,911 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 17:44:22,737 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:44:22,738 [INFO] main –    AgriRover starting up               
+2026-05-11 17:44:22,738 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:44:22,738 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 17:44:23,019 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 17:44:23,020 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 17:44:23,025 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 17:44:23,028 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 17:44:23,050 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 17:44:25,051 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 17:44:25,051 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 17:44:25,054 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 17:44:25,068 [INFO] memory.database – Session 20 started.
+2026-05-11 17:44:25,068 [INFO] control.planner – Rover starting – session 20
+2026-05-11 17:44:25,069 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 17:44:26,677 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:44:26,678 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:44:26,679 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:44:33,255 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:44:33,256 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:44:33,258 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:44:39,835 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:44:39,836 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:44:39,837 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:44:46,414 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:44:46,416 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:44:46,417 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:44:52,994 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:44:52,996 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:44:52,998 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:44:59,579 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:44:59,580 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:44:59,582 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:45:06,165 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:45:06,167 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:45:06,168 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:45:12,747 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:45:12,748 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:45:12,750 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:45:19,331 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:45:19,333 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:45:19,335 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:45:25,922 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:45:25,924 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:45:25,925 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:45:32,509 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:45:32,510 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:45:32,512 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:45:32,818 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 17:46:25,170 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 17:46:25,171 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 17:46:25,182 [INFO] memory.database – Session 20 ended (0 detections).
+2026-05-11 17:46:25,184 [INFO] memory.database – Database closed.
+2026-05-11 17:46:25,185 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 17:46:25,186 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 17:46:25,186 [INFO] main – Rover shutdown complete.
+2026-05-11 17:46:25,577 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 17:46:57,992 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:46:57,993 [INFO] main –    AgriRover starting up               
+2026-05-11 17:46:57,993 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:46:57,993 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 17:46:58,257 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 17:46:58,258 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 17:46:58,263 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 17:46:58,266 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 17:46:58,296 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 17:47:00,297 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 17:47:00,297 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 17:47:00,300 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 17:47:00,322 [INFO] memory.database – Session 21 started.
+2026-05-11 17:47:00,323 [INFO] control.planner – Rover starting – session 21
+2026-05-11 17:47:00,323 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 17:47:01,437 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 17:47:01,438 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 17:47:01,855 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 17:47:01,856 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:47:01,931 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:47:01,932 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:47:01,933 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:47:03,456 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:47:04,975 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 17:47:04,975 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 17:47:04,976 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:47:06,578 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:47:08,138 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 17:47:08,144 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 17:47:08,145 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 17:47:08,533 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:47:08,535 [WARNING] hardware.compass – Unable to open I2C bus 1: [Errno 2] No such file or directory: '/dev/i2c-1'
+2026-05-11 17:47:08,536 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:47:09,746 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 17:47:10,167 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 17:47:10,167 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 17:47:11,872 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 17:48:00,420 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 17:48:00,421 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 17:48:00,434 [INFO] memory.database – Session 21 ended (0 detections).
+2026-05-11 17:48:00,436 [INFO] memory.database – Database closed.
+2026-05-11 17:48:00,437 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 17:48:00,438 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 17:48:00,438 [INFO] main – Rover shutdown complete.
+2026-05-11 17:48:00,827 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 17:48:22,169 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:48:22,169 [INFO] main –    AgriRover starting up               
+2026-05-11 17:48:22,169 [INFO] main – ═══════════════════════════════════════
+2026-05-11 17:48:22,170 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 17:48:22,445 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 17:48:22,446 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 17:48:22,451 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 17:48:22,454 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 17:48:22,480 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 17:48:24,481 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 17:48:24,481 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 17:48:24,484 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 17:48:24,497 [INFO] memory.database – Session 22 started.
+2026-05-11 17:48:24,497 [INFO] control.planner – Rover starting – session 22
+2026-05-11 17:48:24,498 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 17:48:26,102 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:48:26,103 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:48:26,104 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:48:32,683 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:48:32,685 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:48:32,686 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:48:39,272 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:48:39,273 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:48:39,275 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:48:45,853 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:48:45,855 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:48:45,856 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:48:52,437 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:48:52,439 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:48:52,440 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:48:59,023 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:48:59,026 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:48:59,031 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:05,616 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:05,618 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:05,620 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:12,207 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:12,211 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:12,213 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:18,794 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:18,796 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:18,797 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:25,381 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:25,382 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:25,383 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:31,967 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:31,968 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:31,970 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:38,553 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:38,556 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:38,562 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:45,139 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:45,140 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:45,141 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:51,719 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:51,720 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:51,721 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:49:58,298 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:49:58,300 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:49:58,301 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:04,878 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:04,880 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:04,881 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:11,462 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:11,464 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:11,466 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:18,049 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:18,051 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:18,052 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:24,635 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:24,637 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:24,638 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:31,218 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:31,220 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:31,221 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:37,806 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:37,807 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:37,808 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:44,390 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:44,392 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:44,393 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:50,982 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:50,984 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:50,985 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:50:57,569 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:50:57,572 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:50:57,574 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:04,157 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:04,159 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:04,160 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:10,746 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:10,748 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:10,750 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:17,332 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:17,333 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:17,335 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:23,915 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:23,917 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:23,918 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:30,499 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:30,501 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:30,502 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:37,088 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:37,091 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:37,092 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:43,675 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:43,676 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:43,678 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:50,256 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:50,272 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:50,274 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:51:56,863 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:51:56,866 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:51:56,867 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:52:03,446 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:52:03,448 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:52:03,450 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 17:52:10,042 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 17:52:10,043 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 17:52:10,044 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:29:30,586 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:29:30,588 [INFO] main –    AgriRover starting up               
+2026-05-11 18:29:30,588 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:29:30,588 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 18:29:31,393 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 18:29:31,394 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 18:29:31,400 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 18:29:31,402 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 18:29:31,440 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 18:29:33,440 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 18:29:33,440 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 18:29:33,446 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 18:29:33,458 [INFO] memory.database – Session 23 started.
+2026-05-11 18:29:33,459 [INFO] control.planner – Rover starting – session 23
+2026-05-11 18:29:33,459 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 18:29:34,569 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 18:29:34,569 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 18:29:34,987 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:29:34,988 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:29:35,058 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:29:35,059 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:29:35,060 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:29:36,589 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:29:38,094 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:29:38,095 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:29:38,096 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:29:39,698 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:29:40,233 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:29:41,216 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:29:41,217 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:29:41,218 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:29:41,641 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:29:41,642 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:29:41,645 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:29:42,818 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:29:44,335 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:29:44,336 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:30:04,858 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:30:05,442 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:30:05,690 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:30:05,846 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:30:33,535 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 18:30:33,535 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 18:30:33,594 [INFO] memory.database – Session 23 ended (0 detections).
+2026-05-11 18:30:33,596 [INFO] memory.database – Database closed.
+2026-05-11 18:30:33,597 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 18:30:33,597 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 18:30:33,597 [INFO] main – Rover shutdown complete.
+2026-05-11 18:30:33,743 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 18:31:18,990 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:31:18,990 [INFO] main –    AgriRover starting up               
+2026-05-11 18:31:18,990 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:31:18,991 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 18:31:19,317 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 18:31:19,318 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 18:31:19,323 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 18:31:19,326 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 18:31:19,358 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 18:31:21,358 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 18:31:21,359 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 18:31:21,362 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 18:31:21,374 [INFO] memory.database – Session 24 started.
+2026-05-11 18:31:21,375 [INFO] control.planner – Rover starting – session 24
+2026-05-11 18:31:21,375 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 18:31:22,384 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 18:31:22,385 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 18:31:22,404 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:31:22,405 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:31:22,973 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:31:22,981 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:31:22,982 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:31:24,005 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:31:25,519 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:31:25,520 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:31:25,521 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:31:27,122 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:31:28,634 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:31:28,635 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:31:28,635 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:31:29,244 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:31:29,559 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:31:29,560 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:31:29,561 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:31:30,237 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:31:31,748 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:31:31,749 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:32:21,134 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:32:21,354 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:32:21,422 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 18:32:21,423 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 18:32:21,438 [INFO] memory.database – Session 24 ended (0 detections).
+2026-05-11 18:32:21,440 [INFO] memory.database – Database closed.
+2026-05-11 18:32:21,440 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 18:32:21,441 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 18:32:21,441 [INFO] main – Rover shutdown complete.
+2026-05-11 18:32:21,829 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 18:33:08,059 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:33:08,060 [INFO] main –    AgriRover starting up               
+2026-05-11 18:33:08,061 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:33:08,061 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 18:33:08,339 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 18:33:08,340 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 18:33:08,345 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 18:33:08,348 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 18:33:08,372 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 18:33:10,373 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 18:33:10,373 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 18:33:10,380 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 18:33:10,393 [INFO] memory.database – Session 25 started.
+2026-05-11 18:33:10,394 [INFO] control.planner – Rover starting – session 25
+2026-05-11 18:33:10,395 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 18:33:11,398 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 18:33:11,403 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 18:33:11,425 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:33:11,426 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:33:11,995 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:33:11,998 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:33:12,000 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:33:13,027 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:33:14,615 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:33:14,615 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:33:14,616 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:33:15,707 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:33:16,227 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:33:17,742 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:33:17,743 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:33:17,744 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:33:19,345 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:33:20,862 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:33:20,863 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:34:10,457 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 18:34:10,457 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 18:34:10,473 [INFO] memory.database – Session 25 ended (0 detections).
+2026-05-11 18:34:10,474 [INFO] memory.database – Database closed.
+2026-05-11 18:34:10,474 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 18:34:10,474 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 18:34:10,475 [INFO] main – Rover shutdown complete.
+2026-05-11 18:34:10,860 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 18:36:11,237 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:36:11,237 [INFO] main –    AgriRover starting up               
+2026-05-11 18:36:11,238 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:36:11,238 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 18:36:11,521 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 18:36:11,522 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 18:36:11,527 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 18:36:11,530 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 18:36:11,563 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 18:36:13,563 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 18:36:13,564 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 18:36:13,571 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 18:36:13,589 [INFO] memory.database – Session 26 started.
+2026-05-11 18:36:13,589 [INFO] control.planner – Rover starting – session 26
+2026-05-11 18:36:13,590 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 18:36:14,689 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 18:36:14,689 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 18:36:15,114 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:36:15,115 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:36:15,188 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:36:15,190 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:36:15,191 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:36:16,715 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:36:16,979 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:36:18,229 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:36:18,230 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:36:18,230 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:36:19,831 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:36:21,341 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:36:21,342 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:36:21,343 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:36:22,944 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:36:24,462 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:36:24,463 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:36:33,291 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:36:33,486 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:36:33,643 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:36:33,805 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:37:13,672 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 18:37:13,673 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 18:37:13,687 [INFO] memory.database – Session 26 ended (0 detections).
+2026-05-11 18:37:13,689 [INFO] memory.database – Database closed.
+2026-05-11 18:37:13,690 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 18:37:13,690 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 18:37:13,691 [INFO] main – Rover shutdown complete.
+2026-05-11 18:37:14,079 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 18:39:40,037 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:39:40,038 [INFO] main –    AgriRover starting up               
+2026-05-11 18:39:40,038 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:39:40,039 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 18:39:40,781 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 18:39:40,782 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 18:39:40,788 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 18:39:40,791 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 18:39:40,828 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 18:39:42,829 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 18:39:42,829 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 18:39:42,835 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 18:39:42,848 [INFO] memory.database – Session 27 started.
+2026-05-11 18:39:42,849 [INFO] control.planner – Rover starting – session 27
+2026-05-11 18:39:42,849 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 18:39:43,857 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 18:39:43,858 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 18:39:43,879 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:39:43,880 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:39:44,453 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:39:44,458 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:39:44,460 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:39:45,481 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:39:47,095 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:39:47,107 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:39:47,112 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:39:48,714 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:39:50,226 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:39:50,232 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:39:50,243 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:39:51,058 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:39:51,063 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:39:51,065 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:39:51,844 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:39:53,350 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:39:53,356 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:39:53,866 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:39:53,866 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:39:55,467 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:39:56,994 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:39:57,000 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:39:57,011 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:39:57,648 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:39:57,650 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:39:57,652 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:39:58,612 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:00,221 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:00,222 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:40:00,222 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:01,833 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:03,440 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:03,440 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:40:03,941 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:40:03,941 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:04,242 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:40:04,244 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:40:04,246 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:40:05,546 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:07,148 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:07,148 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:40:07,149 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:08,761 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:10,336 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:10,348 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:40:10,353 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:10,834 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:40:10,836 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:40:10,837 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:40:11,955 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:13,484 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:13,484 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:40:13,985 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:40:13,986 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:15,590 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:17,210 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:17,211 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:40:17,211 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:17,432 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:40:17,435 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:40:17,437 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:40:18,823 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:20,339 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:20,339 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:40:20,340 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:21,941 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:23,458 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:23,459 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:40:23,959 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:40:23,961 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:24,014 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:40:24,017 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:40:24,018 [WARNING] hardware.gps – Unable to open GPS port /dev/serial0: [Errno 13] could not open port /dev/serial0: [Errno 13] Permission denied: '/dev/serial0'
+2026-05-11 18:40:25,562 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:26,541 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:26,742 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:26,873 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:27,049 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:27,078 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:27,079 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:40:27,079 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:27,175 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:27,326 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:27,512 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:27,654 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:27,802 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:27,973 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:28,131 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:28,273 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:28,420 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:40:28,682 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:30,203 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:30,204 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:40:30,205 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:40:31,805 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:40:33,323 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:40:33,323 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:40:42,904 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 18:40:42,905 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 18:40:42,931 [INFO] memory.database – Session 27 ended (0 detections).
+2026-05-11 18:40:42,933 [INFO] memory.database – Database closed.
+2026-05-11 18:40:42,934 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 18:40:42,935 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 18:40:42,936 [INFO] main – Rover shutdown complete.
+2026-05-11 18:40:43,313 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 18:44:48,247 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:44:48,248 [INFO] main –    AgriRover starting up               
+2026-05-11 18:44:48,249 [INFO] main – ═══════════════════════════════════════
+2026-05-11 18:44:48,249 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 18:44:48,981 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 18:44:48,982 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 18:44:48,988 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 18:44:48,990 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 18:44:49,036 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 18:44:51,038 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 18:44:51,039 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 18:44:51,043 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 18:44:51,067 [INFO] memory.database – Session 28 started.
+2026-05-11 18:44:51,068 [INFO] control.planner – Rover starting – session 28
+2026-05-11 18:44:51,069 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 18:44:52,072 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 18:44:52,073 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 18:44:52,105 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:44:52,107 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:44:52,690 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:44:52,692 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:44:53,712 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:44:55,331 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:44:55,342 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:44:55,343 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:44:56,949 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:44:58,564 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:44:58,573 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:44:58,574 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:00,175 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:00,283 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:00,285 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:01,688 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:01,697 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:45:02,197 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:45:02,198 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:03,799 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:05,317 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:05,318 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:45:05,319 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:06,920 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:07,881 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:07,883 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:08,437 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:08,442 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:45:08,454 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:10,056 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:11,666 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:11,672 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:45:12,181 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:45:12,183 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:13,783 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:15,322 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:15,322 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:45:15,323 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:15,487 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:15,489 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:16,924 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:18,483 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:18,492 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:45:18,493 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:20,094 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:21,606 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:21,607 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:45:22,109 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:45:22,109 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:23,096 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:23,098 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:23,710 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:25,332 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:25,333 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:45:25,334 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:26,937 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:28,455 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:28,455 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:45:28,456 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:30,057 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:30,705 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:30,711 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:31,572 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:31,572 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:45:32,072 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:45:32,074 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:33,680 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:35,194 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:35,194 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:45:35,195 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:36,796 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:38,313 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:38,314 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:45:38,314 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:38,316 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:38,318 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:39,918 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:41,436 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:41,436 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:45:41,936 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:45:41,937 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:43,543 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:45,149 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:45,150 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:45:45,152 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:45,923 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:45,924 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:46,763 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:48,277 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:48,278 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:45:48,278 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:49,879 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:51,393 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:51,393 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:45:51,893 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:45:51,894 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:53,501 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:53,516 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:45:53,520 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:45:55,017 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:55,018 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:45:55,019 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:56,620 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:45:58,137 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:45:58,138 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:45:58,139 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:45:59,739 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:01,115 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:01,117 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:01,300 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:01,300 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:46:01,802 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:46:01,802 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:03,408 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:04,975 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:04,975 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:46:04,976 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:06,577 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:08,101 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:08,107 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:46:08,118 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:08,722 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:08,723 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:09,718 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:11,321 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:11,321 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:46:11,823 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:46:11,824 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:13,433 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:15,029 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:15,031 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:46:15,033 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:16,325 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:16,327 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:16,634 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:18,164 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:18,167 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:46:18,168 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:19,770 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:21,296 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:21,305 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:46:21,806 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:46:21,807 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:23,408 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:23,923 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:23,925 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:24,928 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:24,928 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:46:24,929 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:26,530 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:28,137 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:28,137 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:46:28,139 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:29,750 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:31,263 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:31,264 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:46:31,520 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:31,522 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:31,767 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:46:31,773 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:33,374 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:34,991 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:34,991 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:46:34,993 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:36,605 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:38,216 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:38,217 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:46:38,217 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:39,111 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:39,112 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:39,828 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:41,426 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:41,432 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:46:41,935 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:46:41,936 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:43,537 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:45,053 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:45,054 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:46:45,055 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:46,656 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:46,701 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:46,703 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:48,169 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:48,175 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:46:48,186 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:49,787 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:51,376 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:51,377 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:46:51,878 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 18:46:51,878 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:53,480 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:54,297 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 18:46:54,299 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 18:46:55,099 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:55,099 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 18:46:55,099 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:56,700 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:58,213 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:46:58,214 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 18:46:58,214 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 18:46:59,316 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:46:59,663 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:46:59,815 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 18:46:59,832 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:00,012 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:00,129 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:00,316 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:00,436 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:00,612 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:00,773 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:00,933 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:01,060 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 18:47:01,338 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 18:47:01,339 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 18:47:51,143 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 18:47:51,144 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 18:47:51,162 [INFO] memory.database – Session 28 ended (0 detections).
+2026-05-11 18:47:51,164 [INFO] memory.database – Database closed.
+2026-05-11 18:47:51,165 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 18:47:51,166 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 18:47:51,166 [INFO] main – Rover shutdown complete.
+2026-05-11 18:47:51,551 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 19:57:41,716 [INFO] main – ═══════════════════════════════════════
+2026-05-11 19:57:41,718 [INFO] main –    AgriRover starting up               
+2026-05-11 19:57:41,718 [INFO] main – ═══════════════════════════════════════
+2026-05-11 19:57:41,718 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 19:57:42,677 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 19:57:42,678 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 19:57:42,683 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 19:57:42,686 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 19:57:42,738 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 19:57:44,741 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 19:57:44,742 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 19:57:44,747 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 19:57:44,761 [INFO] memory.database – Session 29 started.
+2026-05-11 19:57:44,761 [INFO] control.planner – Rover starting – session 29
+2026-05-11 19:57:44,762 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 19:57:46,366 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:57:46,369 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:57:48,791 [INFO] control.planner – Obstacle at 27.4 cm
+2026-05-11 19:57:48,792 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:57:49,292 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:57:49,294 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:57:50,896 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:57:52,472 [WARNING] control.planner – Path still blocked at 29.6 cm after avoidance.
+2026-05-11 19:57:52,473 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:57:52,474 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:57:53,950 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:57:53,952 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:57:54,075 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:57:54,082 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:57:54,083 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:57:55,083 [INFO] control.planner – Obstacle at 34.1 cm
+2026-05-11 19:57:55,084 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:57:55,584 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:57:55,585 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:57:57,186 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:57:58,766 [WARNING] control.planner – Path still blocked at 29.9 cm after avoidance.
+2026-05-11 19:57:58,767 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:57:58,768 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:00,369 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:00,378 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:00,380 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:01,532 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:01,534 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:02,382 [INFO] control.planner – Obstacle at 29.4 cm
+2026-05-11 19:58:02,383 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:02,885 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:02,887 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:04,490 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:04,497 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:04,498 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:05,499 [INFO] control.planner – Obstacle at 33.3 cm
+2026-05-11 19:58:05,499 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:06,000 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:06,001 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:07,602 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:07,610 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:07,611 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:09,114 [INFO] control.planner – Obstacle at 21.1 cm
+2026-05-11 19:58:09,114 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:09,115 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:09,117 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:09,615 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:09,616 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:11,217 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:12,811 [WARNING] control.planner – Path still blocked at 31.7 cm after avoidance.
+2026-05-11 19:58:12,811 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:58:12,812 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:14,413 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:14,421 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:14,421 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:15,424 [INFO] control.planner – Obstacle at 31.1 cm
+2026-05-11 19:58:15,425 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:15,926 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:15,927 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:16,699 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:16,701 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:17,528 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:19,119 [WARNING] control.planner – Path still blocked at 42.1 cm after avoidance.
+2026-05-11 19:58:19,120 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:58:19,121 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:20,722 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:20,731 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:20,732 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:22,739 [INFO] control.planner – Obstacle at 25.6 cm
+2026-05-11 19:58:22,739 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:23,240 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:23,241 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:24,281 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:24,282 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:24,856 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:24,867 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:24,868 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:25,870 [INFO] control.planner – Obstacle at 16.3 cm
+2026-05-11 19:58:25,870 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:26,371 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:26,372 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:27,973 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:27,982 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:27,983 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:31,864 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:31,866 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:38,996 [INFO] control.planner – Obstacle at 16.0 cm
+2026-05-11 19:58:38,997 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:39,446 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:39,448 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:39,500 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:39,501 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:41,104 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:41,115 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:41,115 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:47,027 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:47,028 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:49,124 [INFO] control.planner – Obstacle at 7.8 cm
+2026-05-11 19:58:49,125 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:49,625 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:49,626 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:51,227 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:52,799 [WARNING] control.planner – Path still blocked at 21.8 cm after avoidance.
+2026-05-11 19:58:52,800 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:58:52,800 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:54,401 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:54,614 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:58:54,616 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:58:55,943 [WARNING] control.planner – Path still blocked at 42.4 cm after avoidance.
+2026-05-11 19:58:55,944 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 19:58:55,945 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:58:57,546 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:58:57,556 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:58:57,557 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:58:58,558 [INFO] control.planner – Obstacle at 31.5 cm
+2026-05-11 19:58:58,560 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:58:59,061 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:58:59,061 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:00,662 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:02,030 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:02,030 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:02,194 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:59:02,195 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:59:02,531 [INFO] control.planner – Obstacle at 32.2 cm
+2026-05-11 19:59:02,531 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:03,031 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:03,032 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:04,632 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:04,639 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:04,639 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:05,640 [INFO] control.planner – Obstacle at 22.5 cm
+2026-05-11 19:59:05,640 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:06,141 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:06,142 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:07,743 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:09,323 [WARNING] control.planner – Path still blocked at 32.3 cm after avoidance.
+2026-05-11 19:59:09,323 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:59:09,324 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:09,773 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:59:09,775 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:59:10,925 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:10,932 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:10,933 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:11,935 [INFO] control.planner – Obstacle at 26.2 cm
+2026-05-11 19:59:11,936 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:12,437 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:12,439 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:14,040 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:15,628 [WARNING] control.planner – Path still blocked at 36.4 cm after avoidance.
+2026-05-11 19:59:15,629 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:59:15,630 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:17,231 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:17,239 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:17,239 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:17,355 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:59:17,356 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:59:18,240 [INFO] control.planner – Obstacle at 31.5 cm
+2026-05-11 19:59:18,240 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:18,742 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:18,742 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:20,344 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:20,468 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:20,470 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:21,472 [INFO] control.planner – Obstacle at 18.9 cm
+2026-05-11 19:59:21,474 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:21,975 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:21,977 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:23,578 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:24,936 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:59:24,938 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:59:25,164 [WARNING] control.planner – Path still blocked at 35.9 cm after avoidance.
+2026-05-11 19:59:25,164 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:59:25,165 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:26,766 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:26,773 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:26,773 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:28,775 [INFO] control.planner – Obstacle at 19.9 cm
+2026-05-11 19:59:28,776 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:29,277 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:29,278 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:30,879 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:32,459 [WARNING] control.planner – Path still blocked at 32.0 cm after avoidance.
+2026-05-11 19:59:32,459 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 19:59:32,460 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:32,519 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:59:32,520 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:59:34,061 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:34,902 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:34,903 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:35,405 [INFO] control.planner – Obstacle at 33.8 cm
+2026-05-11 19:59:35,405 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:35,906 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:35,908 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:37,509 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:37,522 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:37,523 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:40,102 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 19:59:40,103 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 19:59:41,527 [INFO] control.planner – Obstacle at 33.0 cm
+2026-05-11 19:59:41,528 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 19:59:42,028 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 19:59:42,029 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 19:59:43,629 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 19:59:43,643 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 19:59:43,644 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 19:59:45,138 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 19:59:45,305 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 20:00:44,815 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 20:00:44,816 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 20:00:44,844 [INFO] memory.database – Session 29 ended (0 detections).
+2026-05-11 20:00:44,846 [INFO] memory.database – Database closed.
+2026-05-11 20:00:44,847 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-11 20:00:44,848 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 20:00:44,848 [INFO] main – Rover shutdown complete.
+2026-05-11 20:00:45,224 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 20:01:39,310 [INFO] main – ═══════════════════════════════════════
+2026-05-11 20:01:39,311 [INFO] main –    AgriRover starting up               
+2026-05-11 20:01:39,311 [INFO] main – ═══════════════════════════════════════
+2026-05-11 20:01:39,312 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 20:01:39,589 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 20:01:39,590 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 20:01:39,595 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 20:01:39,598 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 20:01:39,622 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 20:01:41,622 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 20:01:41,623 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 20:01:41,626 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 20:01:41,640 [INFO] memory.database – Session 30 started.
+2026-05-11 20:01:41,640 [INFO] control.planner – Rover starting – session 30
+2026-05-11 20:01:41,641 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 20:01:43,236 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:01:43,238 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:01:44,668 [INFO] control.planner – Obstacle at 33.2 cm
+2026-05-11 20:01:44,670 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:01:45,170 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:01:45,172 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:01:46,773 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:01:48,361 [WARNING] control.planner – Path still blocked at 30.4 cm after avoidance.
+2026-05-11 20:01:48,362 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:01:48,363 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:01:49,964 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:01:49,971 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:01:49,972 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:01:50,817 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:01:50,819 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:01:50,973 [INFO] control.planner – Obstacle at 19.9 cm
+2026-05-11 20:01:50,974 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:01:51,474 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:01:51,476 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:01:53,077 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:01:53,718 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:01:53,719 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:01:54,220 [INFO] control.planner – Obstacle at 23.0 cm
+2026-05-11 20:01:54,221 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:01:54,722 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:01:54,724 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:01:56,325 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:01:57,923 [WARNING] control.planner – Path still blocked at 39.8 cm after avoidance.
+2026-05-11 20:01:57,924 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:01:57,924 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:01:58,399 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:01:58,400 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:01:59,525 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:01:59,532 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:01:59,533 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:02:00,535 [INFO] control.planner – Plant detected – approaching.
+2026-05-11 20:02:00,536 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-11 20:02:01,339 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-11 20:02:01,850 [INFO] control.planner – Classification: Target Spot  conf=0.84  severity=moderate
+2026-05-11 20:02:01,886 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-11 20:02:01,886 [INFO] ai.openrouter_client – No API key – using offline advice.
+2026-05-11 20:02:01,904 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-11 20:02:02,405 [INFO] control.planner – Plant detected – approaching.
+2026-05-11 20:02:02,406 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-11 20:02:03,208 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-11 20:02:03,721 [INFO] control.planner – Classification: Bacterial Spot  conf=0.74  severity=moderate
+2026-05-11 20:02:03,726 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-11 20:02:03,726 [INFO] ai.openrouter_client – No API key – using offline advice.
+2026-05-11 20:02:03,739 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-11 20:02:04,240 [INFO] control.planner – Plant detected – approaching.
+2026-05-11 20:02:04,241 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-11 20:02:05,042 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-11 20:02:05,555 [INFO] control.planner – Classification: Leaf Mold  conf=0.85  severity=high
+2026-05-11 20:02:05,560 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-11 20:02:05,561 [INFO] ai.openrouter_client – No API key – using offline advice.
+2026-05-11 20:02:05,584 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-11 20:02:05,985 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:02:05,988 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:02:06,087 [INFO] control.planner – Plant detected – approaching.
+2026-05-11 20:02:06,087 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-11 20:02:06,890 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-11 20:02:07,406 [INFO] control.planner – Classification: Leaf Mold  conf=0.65  severity=low
+2026-05-11 20:02:07,411 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-11 20:02:07,412 [INFO] ai.openrouter_client – No API key – using offline advice.
+2026-05-11 20:02:07,428 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-11 20:02:08,430 [INFO] control.planner – Obstacle at 34.3 cm
+2026-05-11 20:02:08,431 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:02:08,932 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:02:08,933 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:02:10,533 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:02:11,285 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:02:11,285 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:02:11,786 [INFO] control.planner – Plant detected – approaching.
+2026-05-11 20:02:11,787 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-11 20:02:12,590 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-11 20:02:13,100 [INFO] control.planner – Classification: Septoria Leaf Spot  conf=0.56  severity=low
+2026-05-11 20:02:13,105 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-11 20:02:13,106 [INFO] ai.openrouter_client – No API key – using offline advice.
+2026-05-11 20:02:13,126 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-11 20:02:13,568 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:02:13,570 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:02:14,127 [INFO] control.planner – Plant detected – approaching.
+2026-05-11 20:02:14,128 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-11 20:02:14,930 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-11 20:02:15,441 [INFO] control.planner – Classification: Bacterial Spot  conf=0.61  severity=low
+2026-05-11 20:02:15,447 [INFO] control.state_machine – State: INSPECTING → REPORTING
+2026-05-11 20:02:15,448 [INFO] ai.openrouter_client – No API key – using offline advice.
+2026-05-11 20:02:15,472 [INFO] control.state_machine – State: REPORTING → EXPLORING
+2026-05-11 20:02:15,973 [INFO] control.planner – Obstacle at 31.5 cm
+2026-05-11 20:02:15,974 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:02:16,475 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:02:16,476 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:02:18,077 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:02:18,086 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:02:18,087 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:02:19,089 [INFO] control.planner – Obstacle at 25.0 cm
+2026-05-11 20:02:19,089 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:02:19,591 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:02:19,592 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:02:21,149 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:02:21,151 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:02:21,193 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:02:22,047 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:02:22,048 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:02:23,049 [INFO] control.planner – Obstacle at 32.2 cm
+2026-05-11 20:02:23,050 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:02:23,551 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:02:23,552 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:02:25,153 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:02:26,423 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:02:26,424 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:02:28,730 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:02:28,732 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:02:29,931 [INFO] control.planner – Obstacle at 30.4 cm
+2026-05-11 20:02:29,932 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:02:30,432 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:02:30,433 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:02:32,034 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:02:33,201 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:02:33,201 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:02:36,312 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:02:36,313 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:02:37,205 [INFO] control.planner – Obstacle at 34.3 cm
+2026-05-11 20:02:37,206 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:02:37,706 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:02:37,707 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:02:39,308 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:02:39,323 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:02:39,323 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:02:43,898 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:02:43,900 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:02:47,635 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-11 20:03:41,735 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-11 20:03:41,737 [INFO] vision.camera – PiCamera2 released.
+2026-05-11 20:03:43,840 [WARNING] ai.openrouter_client – OpenRouter request failed: RetryError[<Future at 0x7f3e798190 state=finished raised LocalProtocolError>]
+2026-05-11 20:03:43,854 [INFO] memory.database – Session 30 ended (6 detections).
+2026-05-11 20:03:43,854 [INFO] memory.database – Database closed.
+2026-05-11 20:03:43,855 [INFO] control.planner – Shutdown complete.  Session summary:
+Report generation unavailable (offline).
+2026-05-11 20:03:43,855 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-11 20:03:43,855 [INFO] main – Rover shutdown complete.
+2026-05-11 20:03:44,143 [INFO] picamera2.picamera2 – Camera closed successfully.
+2026-05-11 20:06:50,296 [INFO] main – ═══════════════════════════════════════
+2026-05-11 20:06:50,297 [INFO] main –    AgriRover starting up               
+2026-05-11 20:06:50,297 [INFO] main – ═══════════════════════════════════════
+2026-05-11 20:06:50,297 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-11 20:06:50,596 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-11 20:06:50,597 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-11 20:06:50,602 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-11 20:06:50,605 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-11 20:06:50,629 [INFO] picamera2.picamera2 – Camera started
+2026-05-11 20:06:52,630 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-11 20:06:52,630 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-11 20:06:52,633 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-11 20:06:52,644 [INFO] memory.database – Session 31 started.
+2026-05-11 20:06:52,645 [INFO] control.planner – Rover starting – session 31
+2026-05-11 20:06:52,645 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-11 20:06:53,745 [WARNING] control.planner – Starting path not clear; entering obstacle state instead of driving.
+2026-05-11 20:06:53,746 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:06:54,174 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:06:54,174 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:06:54,239 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:06:54,240 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:06:55,784 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:06:56,311 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:06:56,311 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:06:56,813 [INFO] control.planner – Obstacle at 5.6 cm
+2026-05-11 20:06:56,815 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:06:57,316 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:06:57,318 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:06:58,918 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:00,481 [WARNING] control.planner – Path still blocked at 6.9 cm after avoidance.
+2026-05-11 20:07:00,482 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:07:00,483 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:01,819 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:01,820 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:02,084 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:03,608 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 20:07:03,620 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:07:03,627 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:05,230 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:06,793 [WARNING] control.planner – Path still blocked at 9.2 cm after avoidance.
+2026-05-11 20:07:06,794 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:07:07,294 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:07,296 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:08,899 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:09,398 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:09,400 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:10,488 [WARNING] control.planner – Path still blocked at 10.9 cm after avoidance.
+2026-05-11 20:07:10,488 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:07:10,489 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:12,090 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:12,413 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:12,414 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:12,914 [INFO] control.planner – Obstacle at 13.7 cm
+2026-05-11 20:07:12,915 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:13,425 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:13,429 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:15,031 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:15,039 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:15,042 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:16,546 [INFO] control.planner – Obstacle at 19.9 cm
+2026-05-11 20:07:16,546 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:16,980 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:16,981 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:17,048 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:17,051 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:18,657 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:18,779 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:18,779 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:22,781 [INFO] control.planner – Obstacle at 12.6 cm
+2026-05-11 20:07:22,781 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:23,282 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:23,283 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:24,560 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:24,562 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:24,884 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:24,892 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:24,892 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:25,393 [INFO] control.planner – Plant detected – approaching.
+2026-05-11 20:07:25,394 [INFO] control.state_machine – State: EXPLORING → PLANT_FOUND
+2026-05-11 20:07:26,199 [INFO] control.state_machine – State: PLANT_FOUND → INSPECTING
+2026-05-11 20:07:26,708 [INFO] control.planner – No valid leaf found in still; resuming.
+2026-05-11 20:07:26,708 [INFO] control.state_machine – State: INSPECTING → EXPLORING
+2026-05-11 20:07:27,710 [INFO] control.planner – Obstacle at 6.9 cm
+2026-05-11 20:07:27,710 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:28,210 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:28,211 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:29,811 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:31,385 [WARNING] control.planner – Path still blocked at 4.0 cm after avoidance.
+2026-05-11 20:07:31,385 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:07:31,385 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:32,144 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:32,145 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:32,986 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:34,560 [WARNING] control.planner – Path still blocked at 23.9 cm after avoidance.
+2026-05-11 20:07:34,560 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:07:34,561 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:36,162 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:36,170 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:36,171 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:36,673 [INFO] control.planner – Obstacle at 34.8 cm
+2026-05-11 20:07:36,674 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:37,176 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:37,177 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:38,777 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:38,784 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:38,786 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:39,724 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:39,725 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:39,790 [INFO] control.planner – Obstacle at 23.9 cm
+2026-05-11 20:07:39,791 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:40,291 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:40,292 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:41,893 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:41,900 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:41,900 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:42,901 [INFO] control.planner – Obstacle at 25.6 cm
+2026-05-11 20:07:42,902 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:43,402 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:43,403 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:45,003 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:46,596 [WARNING] control.planner – Path still blocked at 44.2 cm after avoidance.
+2026-05-11 20:07:46,596 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:07:46,596 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:47,307 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:47,309 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:48,197 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:48,205 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:48,205 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:50,208 [INFO] control.planner – Obstacle at 24.8 cm
+2026-05-11 20:07:50,208 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:50,709 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:50,710 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:52,312 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:52,426 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:52,427 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:52,928 [INFO] control.planner – Obstacle at 22.4 cm
+2026-05-11 20:07:52,929 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:53,431 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:53,434 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:54,890 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:07:54,892 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:07:55,035 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:55,149 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:55,150 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:07:55,650 [INFO] control.planner – Obstacle at 30.4 cm
+2026-05-11 20:07:55,651 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:07:56,151 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:07:56,152 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:07:57,753 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:07:57,764 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:07:57,765 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:08:00,269 [INFO] control.planner – Obstacle at 30.9 cm
+2026-05-11 20:08:00,271 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:08:00,773 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:08:00,774 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:02,375 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:02,384 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:08:02,386 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:08:02,471 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:02,473 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:05,387 [INFO] control.planner – Obstacle at 23.3 cm
+2026-05-11 20:08:05,389 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:08:05,891 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:08:05,892 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:07,492 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:07,507 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:08:07,507 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:08:10,058 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:10,060 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:17,639 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:17,641 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:25,219 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:25,221 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:31,551 [INFO] control.planner – Obstacle at 32.8 cm
+2026-05-11 20:08:31,552 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:08:32,053 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:08:32,054 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:32,799 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:32,801 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:33,655 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:33,662 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:08:33,663 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:08:39,666 [INFO] control.planner – Obstacle at 33.0 cm
+2026-05-11 20:08:39,667 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:08:40,167 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:08:40,168 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:40,385 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:40,386 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:41,769 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:42,194 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:08:42,194 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:08:42,695 [INFO] control.planner – Obstacle at 20.5 cm
+2026-05-11 20:08:42,697 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:08:43,198 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:08:43,199 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:44,800 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:45,025 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:08:45,025 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:08:45,525 [INFO] control.planner – Obstacle at 19.9 cm
+2026-05-11 20:08:45,525 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:08:46,027 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:08:46,027 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:47,628 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:47,969 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:47,971 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:49,198 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:08:49,199 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:08:49,201 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:50,802 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:52,381 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:08:52,382 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:08:52,382 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:53,983 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:55,550 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:08:55,552 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:08:55,557 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:08:55,558 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:08:56,059 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:08:56,060 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:08:57,661 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:08:59,234 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:08:59,235 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:08:59,236 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:00,837 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:02,410 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:09:02,410 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:09:02,411 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:03,132 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:03,134 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:04,012 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:05,587 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:09:05,588 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:09:06,088 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:09:06,089 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:07,690 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:09,268 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:09:09,268 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:09:09,269 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:10,713 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:10,715 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:10,871 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:12,444 [WARNING] control.planner – Path still blocked at 20.5 cm after avoidance.
+2026-05-11 20:09:12,445 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:09:12,447 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:14,049 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:15,625 [WARNING] control.planner – Path still blocked at 21.1 cm after avoidance.
+2026-05-11 20:09:15,625 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:09:16,127 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:09:16,128 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:17,729 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:18,163 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:09:18,164 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:09:18,294 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:18,297 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:18,666 [INFO] control.planner – Obstacle at 21.8 cm
+2026-05-11 20:09:18,666 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:09:19,167 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:09:19,168 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:20,769 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:22,354 [WARNING] control.planner – Path still blocked at 0.0 cm after avoidance.
+2026-05-11 20:09:22,355 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:09:22,356 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:23,962 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:25,505 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:09:25,505 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:09:25,506 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:25,877 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:25,879 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:27,106 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:28,696 [WARNING] control.planner – Path still blocked at 21.8 cm after avoidance.
+2026-05-11 20:09:28,697 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:09:29,198 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:09:29,199 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:30,800 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:32,369 [WARNING] control.planner – Path still blocked at 21.8 cm after avoidance.
+2026-05-11 20:09:32,370 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:09:32,370 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:33,459 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:33,460 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:33,970 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:35,535 [WARNING] control.planner – Path still blocked at 21.5 cm after avoidance.
+2026-05-11 20:09:35,535 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:09:35,536 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:37,139 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:38,015 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:09:38,016 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:09:38,517 [INFO] control.planner – Obstacle at 20.8 cm
+2026-05-11 20:09:38,517 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:09:39,019 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:09:39,020 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:40,622 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:41,039 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:41,041 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:42,209 [WARNING] control.planner – Path still blocked at 20.8 cm after avoidance.
+2026-05-11 20:09:42,210 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:09:42,211 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:43,816 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:45,342 [WARNING] control.planner – Path still blocked at 21.8 cm after avoidance.
+2026-05-11 20:09:45,342 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:09:45,343 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:46,944 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:48,512 [WARNING] control.planner – Path still blocked at 20.8 cm after avoidance.
+2026-05-11 20:09:48,513 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:09:48,619 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:48,621 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:49,014 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:09:49,015 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:50,616 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:52,190 [WARNING] control.planner – Path still blocked at 21.8 cm after avoidance.
+2026-05-11 20:09:52,191 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:09:52,191 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:09:53,792 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:09:54,668 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:09:54,669 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:09:56,199 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:09:56,200 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:09:59,679 [INFO] control.planner – Obstacle at 34.9 cm
+2026-05-11 20:09:59,679 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-11 20:10:00,181 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:10:00,182 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:10:01,782 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:10:03,366 [WARNING] control.planner – Path still blocked at 35.6 cm after avoidance.
+2026-05-11 20:10:03,367 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:10:03,368 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:10:03,779 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:10:03,781 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:10:04,969 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:10:06,557 [WARNING] control.planner – Path still blocked at 35.1 cm after avoidance.
+2026-05-11 20:10:06,558 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:10:06,558 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:10:08,163 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:10:09,756 [WARNING] control.planner – Path still blocked at 35.1 cm after avoidance.
+2026-05-11 20:10:09,757 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:10:10,259 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:10:10,260 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:10:11,360 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:10:11,362 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:10:11,866 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:10:13,465 [WARNING] control.planner – Path still blocked at 35.1 cm after avoidance.
+2026-05-11 20:10:13,466 [INFO] control.planner – Obstacle avoidance attempt 2/3
+2026-05-11 20:10:13,467 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:10:15,068 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:10:16,655 [WARNING] control.planner – Path still blocked at 35.1 cm after avoidance.
+2026-05-11 20:10:16,655 [INFO] control.planner – Obstacle avoidance attempt 3/3
+2026-05-11 20:10:16,657 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:10:18,257 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:10:18,943 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:10:18,945 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-11 20:10:19,843 [WARNING] control.planner – Path still blocked at 35.4 cm after avoidance.
+2026-05-11 20:10:19,843 [ERROR] control.planner – Unable to clear obstacle after 3 attempts. Stopping and retrying.
+2026-05-11 20:10:20,344 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-11 20:10:20,345 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-11 20:10:21,949 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-11 20:10:22,062 [INFO] control.planner – Path clear after avoidance.
+2026-05-11 20:10:22,065 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-11 20:10:26,523 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-11 20:10:26,531 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2026-05-12 16:17:55,761 [INFO] main – ═══════════════════════════════════════
+2026-05-12 16:17:55,762 [INFO] main –    AgriRover starting up               
+2026-05-12 16:17:55,762 [INFO] main – ═══════════════════════════════════════
+2026-05-12 16:17:55,763 [INFO] hardware.gpio_config – GPIO initialised (real=True)
+2026-05-12 16:17:56,488 [INFO] picamera2.picamera2 – Initialization successful.
+2026-05-12 16:17:56,488 [INFO] picamera2.picamera2 – Camera now open.
+2026-05-12 16:17:56,494 [INFO] picamera2.picamera2 – Camera configuration has been adjusted!
+2026-05-12 16:17:56,497 [INFO] picamera2.picamera2 – Configuration successful!
+2026-05-12 16:17:56,525 [INFO] picamera2.picamera2 – Camera started
+2026-05-12 16:17:58,525 [INFO] vision.camera – PiCamera2 opened at 320x240
+2026-05-12 16:17:58,525 [WARNING] ai.classify – Running without TFLite – predictions will be random stubs.
+2026-05-12 16:17:58,534 [INFO] memory.database – Database ready: /home/pi/batch/memory/rover.db
+2026-05-12 16:17:58,551 [INFO] memory.database – Session 32 started.
+2026-05-12 16:17:58,552 [INFO] control.planner – Rover starting – session 32
+2026-05-12 16:17:58,552 [INFO] control.state_machine – State: IDLE → EXPLORING
+2026-05-12 16:18:00,148 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-12 16:18:00,150 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-12 16:18:04,076 [INFO] control.planner – Obstacle at 29.1 cm
+2026-05-12 16:18:04,077 [INFO] control.state_machine – State: EXPLORING → OBSTACLE
+2026-05-12 16:18:04,580 [INFO] control.planner – Obstacle avoidance attempt 1/3
+2026-05-12 16:18:04,581 [INFO] hardware.motors – Obstacle avoidance sequence start.
+2026-05-12 16:18:06,184 [INFO] hardware.motors – Obstacle avoidance sequence complete.
+2026-05-12 16:18:06,193 [INFO] control.planner – Path clear after avoidance.
+2026-05-12 16:18:06,193 [INFO] control.state_machine – State: OBSTACLE → EXPLORING
+2026-05-12 16:18:07,383 [INFO] main – Signal SIGINT received – stopping rover.
+2026-05-12 16:18:07,746 [WARNING] hardware.dht11 – DHT11 sensor read failed after 3 attempts
+2026-05-12 16:18:07,748 [WARNING] hardware.compass – Compass read failed: [Errno 5] Input/output error
+2026-05-12 16:18:58,637 [INFO] picamera2.picamera2 – Camera stopped
+2026-05-12 16:18:58,638 [INFO] vision.camera – PiCamera2 released.
+2026-05-12 16:18:58,654 [INFO] memory.database – Session 32 ended (0 detections).
+2026-05-12 16:18:58,655 [INFO] memory.database – Database closed.
+2026-05-12 16:18:58,656 [INFO] control.planner – Shutdown complete.  Session summary:
+No detections recorded this session.
+2026-05-12 16:18:58,657 [INFO] hardware.gpio_config – GPIO cleaned up.
+2026-05-12 16:18:58,657 [INFO] main – Rover shutdown complete.
+2026-05-12 16:18:59,042 [INFO] picamera2.picamera2 – Camera closed successfully.

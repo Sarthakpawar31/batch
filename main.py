@@ -28,19 +28,26 @@ try:
 except ImportError:
     pass   # uvloop is optional; stdlib asyncio is fine
 
-from config import LOG_LEVEL, LOG_FORMAT
+from config import LOG_LEVEL, LOG_FORMAT, REPORT_DIR
 from hardware.gpio_config import init_gpio, cleanup_gpio
 from control.planner import Planner
 
 
 # ── Logging setup ─────────────────────────────────────────────────────────────
+REPORT_DIR.mkdir(parents=True, exist_ok=True)
+logfile = REPORT_DIR / "rover.log"
+handlers = [logging.StreamHandler(sys.stdout)]
+try:
+    fh = logging.FileHandler(str(logfile), encoding="utf-8")
+    handlers.append(fh)
+except Exception:
+    # If file handler can't be created (permissions etc.), continue with stdout only
+    handlers = [logging.StreamHandler(sys.stdout)]
+
 logging.basicConfig(
-    level   = getattr(logging, LOG_LEVEL, logging.INFO),
-    format  = LOG_FORMAT,
-    handlers=[
-        logging.StreamHandler(sys.stdout),
-        logging.FileHandler("rover.log", encoding="utf-8"),
-    ],
+    level=getattr(logging, LOG_LEVEL, logging.INFO),
+    format=LOG_FORMAT,
+    handlers=handlers,
 )
 logger = logging.getLogger("main")
 
