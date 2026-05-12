@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Detection Result</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; padding: 2rem; }
+      .card { max-width: 800px; margin: 0 auto; }
+      img { max-width: 100%; height: auto; }
+      table { border-collapse: collapse; width: 100%; margin-top: 1rem }
+      td, th { padding: .5rem; border: 1px solid #ddd }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Detection Result</h1>
+      {% if error %}
+        <p style="color:crimson">{{ error }}</p>
+        <p><a href="/">Try another image</a></p>
+      {% else %}
+        <figure>
+          <img src="{{ image_data }}" alt="Uploaded leaf image" />
+        </figure>
+
+        <table>
+          <tr><th>Disease</th><td>{{ disease }}</td></tr>
+          <tr><th>Confidence</th><td>{{ confidence }}</td></tr>
+          <tr><th>Severity</th><td>{{ severity }}</td></tr>
+          <tr><th>Treatment / Cure</th><td>{{ cure }}</td></tr>
+        </table>
+
+        <h3>Top Predictions</h3>
+        <ul>
+        {% for label, score in top_k %}
+          <li>{{ label }} — {{ '%.2f'|format(score) }}</li>
+        {% endfor %}
+        </ul>
+
+        <p><a href="/">Analyze another image</a></p>
+      {% endif %}
+    </div>
+  </body>
+</html>

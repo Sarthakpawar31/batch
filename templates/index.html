@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Leaf Disease Detector</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; padding: 2rem; }
+      .card { max-width: 640px; margin: 0 auto; }
+      input[type=file] { display:block; margin-top:1rem }
+      button { margin-top: 1rem; padding: .5rem 1rem }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Leaf Disease Detector</h1>
+      <p>Upload a leaf photo to detect disease and see recommended treatment.</p>
+
+      <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="image">Choose an image (JPEG/PNG):</label>
+        <input type="file" name="image" id="image" accept="image/*" required />
+        <button type="submit">Analyze</button>
+      </form>
+
+      <hr />
+      <p>Model inference uses the project's TFLite model when available; otherwise a stub prediction will be returned for testing.</p>
+    </div>
+  </body>
+</html>
